@@ -15,6 +15,7 @@ $white: #FFFFFF;
     width: 50px;
     z-index: 9999;
     list-style-type: none;
+    display:none;
 }
 
 .vNav ul {
@@ -52,18 +53,20 @@ $white: #FFFFFF;
     border-radius: 50%;
     text-decoration: none;
 }
-.vNav-cor1 ul li{color: $water-blue;}
-.vNav-cor1 a{border-color: $water-blue;}
-.vNav-cor1 a:hover{background-color: $darker-blue;}
-.vNav-cor1 a:active{background-color: $dark-blue;}
+.vNav-cor1 ul li{color: $white;}
+.vNav-cor1 a{border-color: $white;}
+.vNav-cor1 a:hover{background-color: $lighter-blue;}
+.vNav-cor1 a.active{background-color: $water-blue;}
+.vNav-cor1 ul li a .label {color:$white;}
 
 .vNav-cor2 ul li{color: $darker-blue;}
 .vNav-cor2 a{border-color: $darker-blue;}
-.vNav-cor2 a:hover{background-color: $white;}
-.vNav-cor2 a:active{background-color: $lighter-blue;}
+.vNav-cor2 a:hover{background-color: $water-blue;}
+.vNav-cor2 a.active{background-color: $lighter-blue;}
+.vNav-cor2 ul li a .label {color: $darker-blue;}
 
 
-.label {
+.vNav ul li a .label {
     font-weight: 500;
     position: absolute;
     top: -29%;
@@ -71,7 +74,6 @@ $white: #FFFFFF;
     width: 100%;
     text-align: right;
     font-size: 1em;
-    color: $darker-blue;
     transition:0.6s;
     opacity:0;
 }
