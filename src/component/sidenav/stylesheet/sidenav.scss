@@ -1,0 +1,77 @@
+$darker-blue: #2699FB;
+$dark-blue: #0080ff;
+$water-blue: #BCE0FD;
+$lighter-blue: #b1dcfb;
+$white: #FFFFFF;
+
+.side-nav {
+    box-shadow: none;
+    background-color: transparent;
+}
+.vNav {
+    position: fixed;
+    top: 40%;
+    left: 90%;
+    width: 50px;
+    z-index: 9999;
+    list-style-type: none;
+}
+
+.vNav ul {
+    position: relative;
+    padding: 3px;
+    padding-left: 35%;
+}
+
+.vNav ul li{
+    position: relative;
+    padding-bottom: 20px;
+    padding-left: 35%;
+}
+
+.vNav a{
+    display: block;
+    width: 8px;
+    height: 8px;
+    text-indent: -9999px;
+    border-radius: 50%;
+    border: 2px solid;
+    text-decoration: none;
+}
+
+.vNav a:hover{
+    border-radius: 50%;
+    text-decoration: none;
+    .label{
+        transition:0.6s;
+        opacity:1;
+    }
+}
+
+.vNav a.active{
+    border-radius: 50%;
+    text-decoration: none;
+}
+.vNav-cor1 ul li{color: $water-blue;}
+.vNav-cor1 a{border-color: $water-blue;}
+.vNav-cor1 a:hover{background-color: $darker-blue;}
+.vNav-cor1 a:active{background-color: $dark-blue;}
+
+.vNav-cor2 ul li{color: $darker-blue;}
+.vNav-cor2 a{border-color: $darker-blue;}
+.vNav-cor2 a:hover{background-color: $white;}
+.vNav-cor2 a:active{background-color: $lighter-blue;}
+
+
+.label {
+    font-weight: 500;
+    position: absolute;
+    top: -29%;
+    left: -100%;
+    width: 100%;
+    text-align: right;
+    font-size: 1em;
+    color: $darker-blue;
+    transition:0.6s;
+    opacity:0;
+}

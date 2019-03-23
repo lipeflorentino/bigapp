@@ -1,0 +1,45 @@
+$darker-blue: #2699FB;
+$dark-blue: #0080ff;
+$water-blue: #BCE0FD;
+$lighter-blue: #b1dcfb;
+$white: #FFFFFF;
+
+nav ul a{
+    color: $white;
+}
+nav .brand-logo{
+    color: $white;
+    font-size: 2.5rem;
+    font-weight:700;
+}
+
+nav{
+    /*float: left;*/
+    position: absolute;
+    background-color: transparent;
+    height: 70px;
+    padding: 3% 10% 0 10%;
+    width:100%;
+    box-shadow:none;
+}
+nav ul li:hover {
+    background-color: $lighter-blue;
+    transition:0.7s;
+}
+
+/*responsivo*/
+
+@media only screen and (max-width: 600px) {
+    nav .nav-wrapper {
+        padding-top: 5px;
+    }
+    nav .button-collapse {
+        padding-top: 2px;
+    }
+    nav .brand-logo {
+        left: 83%;
+    }
+    .side-nav a {
+        color: $dark-blue;
+    }
+}
