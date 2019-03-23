@@ -4,3 +4,41 @@ $standard-p: #662D91;
 $lighter-p: #B34FFF;
 $white: #FFFFFF;
 
+.ebook-content{
+    position:relative;
+    padding:4% 8%;
+}
+.ebook-content h2{
+    
+}
+.ebook-content p{
+    line-height: 2.1rem;
+    font-size: 1.2rem;
+    opacity: 0.75;
+    margin-bottom: 30px;
+}
+.ebook-img{
+    position: relative;
+    height: 460px;
+    width: 100%;
+    img{
+        width: 60%;
+        position: absolute;
+        right: 60px;
+        top: 30px;
+    }
+}
+.ebook-download{
+    position: relative;
+}
+.ebook-download p.p-subscription{
+    font-size: 14px;
+    line-height: 1.8rem;
+    font-style: italic;
+    margin: 10px 0;
+}
+.ebook-btn{
+    left: 235px;
+    bottom: 55px;
+    position: absolute;
+}

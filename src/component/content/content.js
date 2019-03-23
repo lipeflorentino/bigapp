@@ -9,9 +9,10 @@ import './stylesheet/content.scss';
 
 //importando componentes
 import HeaderContent from '../header-content/header-content';
-import EbookContent from '../ebook-content/ebook-content';
-import ClientContent from '../client-content/client-content';
 import DigitalContent from '../digital-content/digital-content';
+import EbookContent from '../ebook-content/ebook-content';
+import EmpresaContent from '../empresa-content/empresa-content';
+import ClientContent from '../client-content/client-content';
 import FooterContent from '../footer-content/footer-content';
 
 
@@ -20,8 +21,9 @@ const Content = () => (
 
     <div className="content-container">
         <HeaderContent />
-        <EbookContent />
         <DigitalContent />
+        <EbookContent />
+        <EmpresaContent/>
         <ClientContent />
         <FooterContent />
     </div>    

@@ -8,20 +8,21 @@ $(document).ready(function() {
         }, 1500);
         return false;
     });
-    
-    $('.toEbook').click(function() {
+
+    $('.toDigital').click(function() {
         $('html, body').animate({
             scrollTop: '700px'
         }, 1500);
         return false;
     });
-
-    $('.toDigital').click(function() {
+        
+    $('.toEbook').click(function() {
         $('html, body').animate({
             scrollTop: '1400px'
         }, 1500);
         return false;
     });
+
     $('.toClientes').click(function() {
         $('html, body').animate({
             scrollTop: '2100px'

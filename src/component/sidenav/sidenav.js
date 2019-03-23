@@ -17,13 +17,18 @@ const SideNav = () => (
                 </a>
             </li>
             <li>
+                <a href="#toDigital">
+                    <div class="label">SOLUÇÕES</div>
+                </a>
+            </li>
+            <li>
                 <a href="#toEbook">
                     <div class="label">E-BOOK</div>
                 </a>
             </li>
             <li>
-                <a href="#toDigital">
-                    <div class="label">SOLUÇÕES</div>
+                <a href="#toEmpresa">
+                    <div class="label">QUEM SOMOS</div>
                 </a>
             </li>
             <li>
