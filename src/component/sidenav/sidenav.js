@@ -9,36 +9,36 @@ import "./javascript/sidenav-script.js";
 
 //sidenav
 const SideNav = () => (
-    <div class="vNav">
-        <ul class="vNav">
+    <div className="vNav">
+        <ul className="vNav">
             <li>
                 <a href="#toHome">
-                    <div class="label">HOME</div>
+                    <div className="label">HOME</div>
                 </a>
             </li>
             <li>
                 <a href="#toDigital">
-                    <div class="label">SOLUÇÕES</div>
+                    <div className="label">SOLUÇÕES</div>
                 </a>
             </li>
             <li>
                 <a href="#toEbook">
-                    <div class="label">E-BOOK</div>
+                    <div className="label">E-BOOK</div>
                 </a>
             </li>
             <li>
                 <a href="#toEmpresa">
-                    <div class="label">QUEM SOMOS</div>
+                    <div className="label">QUEM SOMOS</div>
                 </a>
             </li>
             <li>
                 <a href="#toCliente">
-                    <div class="label">CLIENTES</div>
+                    <div className="label">CLIENTES</div>
                 </a>
             </li>
             <li>
                 <a href="#toFooter">
-                    <div class="label">CONTATO</div>
+                    <div className="label">CONTATO</div>
                 </a>
             </li>
         </ul>

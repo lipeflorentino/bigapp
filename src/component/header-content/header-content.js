@@ -19,7 +19,7 @@ const HeaderContent = () => (
                 <div className="header-title">
                     <h1>O Título do header otimizado.</h1>
                     <p>Um texto para captar a atenção do usuário e aumentar a taxa de conversão.</p>
-                    <a href="#" class="btn-class">Link Button</a>
+                    <a href="#" className="btn-class">Link Button</a>
                 </div>
             </Col>
             

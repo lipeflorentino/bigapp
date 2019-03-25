@@ -29,7 +29,7 @@ const EbookContent = () => (
                     </div>
                     <div className="ebook-btn">
                         <p className="p-subscription">Clique aqui e obtenha o seu e-book gratuito!</p>
-                        <a class="btn">Download E-book</a>
+                        <a className="btn">Download E-book</a>
                     </div>
                     
                 </div>

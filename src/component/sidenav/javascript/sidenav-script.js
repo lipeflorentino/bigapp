@@ -40,6 +40,7 @@ $(document).ready(function($){
         if(position <1200 && position > 560){
             $('.vNav').removeClass('vNav-cor1');
             $('.vNav').addClass('vNav-cor2');
+            $('#site').addClass('dc-show');
         }
         else if(position <1800 && position > 1200){
             $('.vNav').removeClass('vNav-cor2');

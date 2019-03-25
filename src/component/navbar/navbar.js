@@ -9,10 +9,8 @@ import "./javascript/scroll-to-navigate.js";
 import logo from '../../img/logo/big_logo_new_06.png';
     
 const icon = (
-  <span class="logo">
-    <a href="/">
-      <img src={logo} height="60" width="60" alt="<BIG/>" />
-    </a>
+  <span className="logo">
+    <img src={logo} height="60" width="60" alt="<BIG/>" />
   </span>
 );
 

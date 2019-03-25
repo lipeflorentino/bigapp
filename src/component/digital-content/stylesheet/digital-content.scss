@@ -44,14 +44,15 @@ $light-green: #5dba61;
     float:left;
     text-align:left;
     z-index:3;
-    position:relative;
+    position:absolute;
     h3{
         font-size:3rem;
         color:$white;
         margin-top:0;
     }
     p{
-        
+        color:$white;
+        opacity:0.75;
     }
 }
 .trapezio {
@@ -64,6 +65,44 @@ $light-green: #5dba61;
     width: 75%;
     float:right;
     z-index:4;
+}
+.dc-menu{
+    height:80px;
+    position:absolute;
+    margin:auto;
+    top:10px;
+    left:41%;
+    z-index:4;
+}
+.dc-menu{
+    ul{
+        li{
+            float:left;
+            margin:5px 30px;
+        }
+    }
+}
+.dc-menu li .dc-active{
+    background-color: $water-blue;
+}
+.losango { 
+    cursor:pointer;
+    width: 16px; 
+    height: 16px; 
+    background-color: transparent; 
+    border:3px solid $lighter-blue;
+    transition:0.4s;
+    transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+.losango:hover {
+    transition:0.4s;
+    -webkit-transform:scale(2.3) rotate(225deg);
+    -moz-transform:scale(2.3) rotate(225deg);
+    -o-transform:scale(2.3) rotate(225deg);
+    transform:scale(1.15) rotate(225deg);
+    background-color:$water-blue;
 }
 
 .digital-img{
@@ -89,6 +128,15 @@ $light-green: #5dba61;
 .btn-class:hover{
     background-color:$light-green;
 }
+#site, #sistema, #ideias, #design{
+    transition:0.6s;
+    opacity:0;
+}
+.dc-show{
+    transition: 2.1s !important;
+    opacity:1 !important;
+}
+
 
     
 
