@@ -46,6 +46,10 @@ $(document).ready(function($){
             $('.vNav').addClass('vNav-cor1');
         }
         else if(position <2400 && position > 1800){
+            $('.vNav').removeClass('vNav-cor1');
+            $('.vNav').addClass('vNav-cor2');
+        }
+        else if(position <3000 && position > 2400){
             $('.vNav').removeClass('vNav-cor2');
             $('.vNav').addClass('vNav-cor1');
         }

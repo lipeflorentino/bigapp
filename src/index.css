@@ -33,3 +33,9 @@ code {
 .clearfix{
   clear:both;
 }
+p{
+    line-height: 2.3rem;
+    font-size: 1.6rem;
+    opacity: 0.75;
+    margin-bottom: 45px;
+}

@@ -1,4 +1,5 @@
-$darker-blue: #0080ff;
+$darker-blue: #054381;
+$medium-blue: #0080ff;
 $dark-blue: #2699FB;
 $water-blue: #BCE0FD;
 $lighter-blue: #b1dcfb;
@@ -13,13 +14,19 @@ $black: #000000;
     height: 100%;
     background-image: linear-gradient(to bottom right, $darker-blue, $water-blue);
     padding: 13% 8% 0 8%;
+    z-index:1;
 }
 .digital-content{
-    background-color:$white;
+    background-color:$medium-blue;
+    background-image: linear-gradient(to bottom right, $darker-blue, $water-blue);
+    padding: 13% 8% 0 8%;
+    z-index:1;
+    position:relative;
 }
 .ebook-content{
     height: 600px;
-    background-color:$water-blue;
+    z-index:1;
+    background-image: linear-gradient(to bottom right, $dark-blue, $water-blue);
 }
 .empresa-content{
     height: 100%;

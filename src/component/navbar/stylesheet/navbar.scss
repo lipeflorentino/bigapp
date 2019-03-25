@@ -24,9 +24,13 @@ nav{
     width:100%;
     box-shadow:none;
 }
-nav ul li:hover {
+nav ul li:hover{
     background-color: $lighter-blue;
-    transition:0.7s;
+    transition: 0.7s;
+    margin-top: 10px;
+}
+nav ul li{
+    transition: 0.7s;
 }
 
 /*responsivo*/

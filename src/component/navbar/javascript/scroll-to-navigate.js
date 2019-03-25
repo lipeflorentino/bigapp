@@ -2,6 +2,9 @@ import $ from 'jquery';
 
 $(document).ready(function() {
     
+    $('.header-title').addClass('anim1');
+    $('.header-img').addClass('anim2');
+    
     $('.toHome').click(function() {
         $('html, body').animate({
             scrollTop: '0px'

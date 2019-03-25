@@ -7,20 +7,26 @@ $white: #FFFFFF;
 .ebook-content{
     position:relative;
     padding:4% 8%;
+    z-index:3;
 }
 .ebook-content h2{
-    
+    color:$white;
 }
 .ebook-content p{
     line-height: 2.1rem;
     font-size: 1.2rem;
     opacity: 0.75;
     margin-bottom: 30px;
+    color:$white;
+}
+.ebook-title{
+    z-index:3;
 }
 .ebook-img{
     position: relative;
     height: 460px;
     width: 100%;
+    z-index:3;
     img{
         width: 60%;
         position: absolute;
@@ -30,6 +36,7 @@ $white: #FFFFFF;
 }
 .ebook-download{
     position: relative;
+    z-index:2;
 }
 .ebook-download p.p-subscription{
     font-size: 14px;
@@ -41,4 +48,5 @@ $white: #FFFFFF;
     left: 235px;
     bottom: 55px;
     position: absolute;
+    z-index:3;
 }

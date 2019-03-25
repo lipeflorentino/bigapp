@@ -1,4 +1,5 @@
-$darker-blue: #0080ff;
+$darker-blue: #054381;
+$medium-blue: #0080ff;
 $dark-blue: #2699FB;
 $water-blue: #BCE0FD;
 $lighter-blue: #b1dcfb;
@@ -6,6 +7,12 @@ $white: #FFFFFF;
 
 .header-title{
     padding: 0 12% 0 0;
+    opacity:0;
+    transition: 0.9s;
+    margin-right:40px;
+    z-index:3;
+    position:relative;
+    left:-60px;
 }
 .header-title h1 {
     font-size: 3.5rem;
@@ -24,12 +31,13 @@ $white: #FFFFFF;
     background-size: cover;
     background-attachment: fixed;
     left: 0;
-    background-image: url(/static/media/bcgd1.c83346fd.jpg);
+    background-image: url(../../../img/background/bcgd1.jpg);
     width: 100%;
     height: 100%;
     opacity: 0.1;
     position: absolute;
     top: 0;
+    z-index:2;
 }
 .header-title p.p-subscription{
     font-size:14px;
@@ -38,7 +46,7 @@ $white: #FFFFFF;
     margin-top:30px;
 }
 .btn, .btn-large{
-    background-color:$darker-blue;
+    background-color:$medium-blue;
 }
 .btn:hover, .btn-large:hover {
     background-color: $dark-blue;
@@ -47,14 +55,24 @@ $white: #FFFFFF;
     margin-top:2.8rem;
     padding-right: 8%;
     position:relative;
+    z-index:3;
     img{
         width: 130%;
         position: absolute;
-        left: -70px;
+        left: 40px;
         top: 20px;
+        opacity:0;
+        transition: 0.9s;
+        margin-right:40px;
+        
     }
 }
 
+/* Animações do header */
+.anim1{opacity:1;margin-right: 0px;transition: 0.9s;left:0;}
+.anim2 img{opacity:1;margin-left: 0px;transition: 0.9s;left:-90px;}
+
+/* Layout responsivo */
 @media only screen and (max-width: 600px) {
     
     .header-title{
