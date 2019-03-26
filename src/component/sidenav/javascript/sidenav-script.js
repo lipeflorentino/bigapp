@@ -41,10 +41,17 @@ $(document).ready(function($){
             $('.vNav').removeClass('vNav-cor1');
             $('.vNav').addClass('vNav-cor2');
             $('#site').addClass('dc-show');
+            $('#site-img').addClass('dc-img-show');
         }
         else if(position <1800 && position > 1200){
             $('.vNav').removeClass('vNav-cor2');
             $('.vNav').addClass('vNav-cor1');
+            $('#feature1').addClass('show-feature1');
+            $('#feature2').addClass('show-feature2');
+            $('#feature3').addClass('show-feature3');
+            $('#feature4').addClass('show-feature4');
+            $('.ec-img').addClass('ec-show-img');
+            
         }
         else if(position <2400 && position > 1800){
             $('.vNav').removeClass('vNav-cor1');

@@ -1,52 +1,67 @@
-$darker-p: #2D1440;
-$dark-p: #5A287F;
-$standard-p: #662D91;
-$lighter-p: #B34FFF;
+$darker-blue: #054381;
+$medium-blue: #0080ff;
+$dark-blue: #2699FB;
+$water-blue: #BCE0FD;
+$lighter-blue: #b1dcfb;
 $white: #FFFFFF;
+$black: #000000;
+$green: #4CAF50;
+$light-green: #5dba61;
 
 .ebook-content{
     position:relative;
     padding:4% 8%;
     z-index:3;
 }
-.ebook-content h2{
-    color:$white;
+.ebook-content .dc-titulo{
+    padding:0 8% 4% 8%;
 }
 .ebook-content p{
     line-height: 2.1rem;
     font-size: 1.2rem;
     opacity: 0.75;
     margin-bottom: 30px;
-    color:$white;
 }
-.ebook-title{
-    z-index:3;
+.ec-box{
+    display:inline-block;
+    position:relative;
 }
-.ebook-img{
-    position: relative;
-    height: 460px;
-    width: 100%;
-    z-index:3;
-    img{
-        width: 60%;
-        position: absolute;
-        right: 60px;
-        top: 30px;
+.ec-features{
+    float:left;
+    width:40%;
+    margin:30px 20px;
+    opacity: 0;
+    transition: 1s;
+    transform: translate(-50px);
+    h3{
+        font-size:22px;
+        color:#37484e;
+    }
+    p{
+        color:#5d6c71;
+    }
+    span i{
+        font-size:5rem;
+        color: $medium-blue;
     }
 }
-.ebook-download{
-    position: relative;
-    z-index:2;
+.show-feature1{opacity:1;transition:.8s;transform: translate(0px);}
+.show-feature2{opacity:1;transition:1.2s;transform: translate(0px);}
+.show-feature3{opacity:1;transition:1.6s;transform: translate(0px);}
+.show-feature4{opacity:1;transition:2s;transform: translate(0px);}
+
+.material-icons{
+    font-size:90px;
+    color: $medium-blue;
 }
-.ebook-download p.p-subscription{
-    font-size: 14px;
-    line-height: 1.8rem;
-    font-style: italic;
-    margin: 10px 0;
+.ec-img{
+    position:relative;
+    img{
+        width: 110%;
+        position: absolute;
+        left: -85px;
+        opacity: 0;
+        transition: 1s;
+    }
 }
-.ebook-btn{
-    left: 235px;
-    bottom: 55px;
-    position: absolute;
-    z-index:3;
-}
+.ec-show-img img{opacity:1;transition:1s;}

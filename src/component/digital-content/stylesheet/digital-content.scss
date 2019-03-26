@@ -45,6 +45,7 @@ $light-green: #5dba61;
     text-align:left;
     z-index:3;
     position:absolute;
+    left:-500px;
     h3{
         font-size:3rem;
         color:$white;
@@ -57,14 +58,15 @@ $light-green: #5dba61;
 }
 .trapezio {
     right: 0;
+    bottom: 0;
     position: absolute;
-    border-bottom: 700px solid $white;
+    border-bottom: 525px solid #FFFFFF;
     border-left: 450px solid transparent;
     border-right: 0px solid transparent;
     height: 0;
     width: 75%;
-    float:right;
-    z-index:4;
+    float: right;
+    z-index: 4;
 }
 .dc-menu{
     height:80px;
@@ -128,12 +130,18 @@ $light-green: #5dba61;
 .btn-class:hover{
     background-color:$light-green;
 }
-#site, #sistema, #ideias, #design{
+#site, #sistema, #ideias, #design,
+#site-img, #sistema-img, #ideias-img, #design-img{
     transition:0.6s;
     opacity:0;
 }
 .dc-show{
-    transition: 2.1s !important;
+    transition: 0.6s !important;
+    opacity:1 !important;
+    left:115px !important;
+}
+.dc-img-show{
+    transition: 2.3s !important;
     opacity:1 !important;
 }
 

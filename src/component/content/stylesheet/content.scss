@@ -24,17 +24,16 @@ $black: #000000;
     position:relative;
 }
 .ebook-content{
-    height: 600px;
     z-index:1;
-    background-image: linear-gradient(to bottom right, $dark-blue, $water-blue);
+    background-color:$white;
 }
 .empresa-content{
     height: 100%;
-    background-color:$white;
+    background-color:$dark-blue;
 }
 .client-content{
     height: 100%;
-    background-color:$dark-blue;
+    background-color:$white;
 }
 .footer-content{
     height: 100%;

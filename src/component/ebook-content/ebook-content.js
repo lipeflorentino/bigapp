@@ -4,37 +4,51 @@ import React from "react";
 import { Row, Col, Card } from 'react-materialize';
 // Importando css e scss
 import './stylesheet/ebook-content.scss';
-import img from '../../img/ebook2.png';
+import img from './img/celular2.png';
+
 
 //importando componentes
 
 //Content
 const EbookContent = () => (
-
-    <div className="ebook-content content" id="toEbook">
-        <div className="header-background"></div>
-        <Row>
-            <Col m={6} s={12}>
-                <div className="ebook-title">
-                    <h2>Título em h2</h2>
-                    <p>Lorem Ipsum é simplesmente uma simulação de texto da indústria tipográfica e de impressos, e vem sendo utilizado desde o século XVI, quando um impressor desconhecido pegou uma bandeja de tipos e os embaralhou para fazer um livro de modelos de tipos. Lorem Ipsum sobreviveu não só a cinco séculos, como também ao salto para a editoração eletrônica, </p>
-                </div>
-            </Col>
-            
-            <Col m={6} s={12}>
-                <div className="ebook-download">
-                    <div className="ebook-img">
-                        <img src={img} title="" alt="imagem de um ebook"></img>
-                        <div className="clearfix"></div>
+    <div>
+        <div className="ebook-content content" id="toEbook">
+            <div className="dc-titulo">
+                <h2>Por quê ter presença Digital?</h2>
+                <div className="title-underline"></div>
+            </div>
+            <Row>
+                <Col m={8} s={12}>
+                    <div className="ec-box">
+                        <div id="feature1" className="ec-features">
+                            <span><i className="fa fa-at"></i></span>
+                            <h3>Feature 1</h3>
+                            <p>texto que explica o objetivo ou o benefício da feature 1.</p>
+                        </div>
+                        <div id="feature2" className="ec-features">
+                            <span><i className="fa fa-bar-chart"></i></span>
+                            <h3>Feature 2</h3>
+                            <p>texto que explica o objetivo ou o benefício da feature 2.</p>
+                        </div>
+                        <div id="feature3" className="ec-features">
+                            <span><i className="fa fa-cloud"></i></span>
+                            <h3>Feature 3</h3>
+                            <p>texto que explica o objetivo ou o benefício da feature 3.</p>
+                        </div>
+                        <div id="feature4" className="ec-features">
+                            <span><i className="fa fa-code"></i></span>
+                            <h3>Feature 4</h3>
+                            <p>texto que explica o objetivo ou o benefício da feature 4.</p>
+                        </div>
                     </div>
-                    <div className="ebook-btn">
-                        <p className="p-subscription">Clique aqui e obtenha o seu e-book gratuito!</p>
-                        <a className="btn">Download E-book</a>
+                </Col>
+                <Col m={4} s={12}>
+                    <div className="ec-img">
+                        <img src={img} title="" alt=""></img>
                     </div>
-                    
-                </div>
-            </Col>
-        </Row>
+                </Col>
+            </Row>
+        </div>    
     </div>    
 );
 
