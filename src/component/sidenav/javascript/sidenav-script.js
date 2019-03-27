@@ -50,7 +50,7 @@ $(document).ready(function($){
             $('#feature2').addClass('show-feature2');
             $('#feature3').addClass('show-feature3');
             $('#feature4').addClass('show-feature4');
-            $('.ec-img').addClass('ec-show-img');
+            $('.fc-img').addClass('fc-show-img');
             
         }
         else if(position <2400 && position > 1800){

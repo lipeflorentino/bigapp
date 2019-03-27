@@ -1,0 +1,40 @@
+$darker-blue: #054381;
+$medium-blue: #0080ff;
+$dark-blue: #2699FB;
+$water-blue: #BCE0FD;
+$lighter-blue: #b1dcfb;
+$white: #FFFFFF;
+$dark-white: #fafafa;
+$black: #000000;
+
+
+.emp-titulo{
+    text-align:center;
+    padding-bottom: 12%;
+    h3{
+        color:$medium-blue;
+    }
+    p{
+        
+    }
+}
+.emp-infos{
+    text-align:center;
+    .fa{
+        font-size: 4em;
+        color: $medium-blue;
+        margin: 0;
+        border-radius: 50%;
+        background-color: $dark-white;
+        padding: 10%;
+    }
+}
+.emp-text{
+    padding: 5% 12%;
+    h3{
+        color: $medium-blue;
+    }
+    p{
+        
+    }
+}
