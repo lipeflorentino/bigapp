@@ -18,32 +18,9 @@ $black: #000000;
         
     }
 }
-.emp-infos{
-    position: relative;
-    padding-top: 10em;
-    text-align: center;
-    margin-top: 50%;
-    h4{
-        font-size: 20px;
-        color:#37484e;
-    }
-    p{
-        font-size: 18px;
-        color:#5d6c71;
-    }
-    .fa{
-        position: absolute;
-        font-size: 4em;
-        color: #0089ec;
-        margin: 0;
-        padding: 10%;
-        left: 30px;
-        bottom: 35px;
-        transform: rotate(45deg);
-    }
-}
 .emp-text{
     padding: 0 12%;
+    text-align: justify;
     h3{
         color: $medium-blue;
         margin-top:0;
@@ -61,15 +38,16 @@ $black: #000000;
 .emp-padding{
     
 }
-.emp-losango{
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    background: transparent;
-    border: 1px solid #bce0fd;
-    -webkit-transform: rotate(-45deg);
-    transform: rotate(-45deg);
-    top: -40px;
-    left: 29%;
-    border-radius: 5px; 
+.emp-img{
+    position:relative;
+    width:100%;
+    min-height:700px;
+    img{
+        padding: 5% 12%;
+        width: 100%;
+        position: absolute;
+    }
+    .emp-rectangle{
+        position:absolute;
+    }
 }

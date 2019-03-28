@@ -12,56 +12,65 @@ import './stylesheet/pilares-content.scss';
 const PilaresContent = () => (
     <div>
         <div className="pilares-content" id="toPilares">
-            <div className="pc-text">
-                <h3>Pilares</h3>
-                <p>Aqui vai entrar um texto falando sobre a BIG Soluções Gigitais, com foco no propósito da empresa, o objetivo é se aproximar do cpossível cliente, fazê-lo entender a marca e motivá-lo a usar os nossos serviços.</p>
-                <p>Aqui vai entrar um texto falando sobre a BIG Soluções Gigitais, com foco no propósito da empresa, o objetivo é se aproximar do cpossível cliente, fazê-lo entender a marca e motivá-lo a usar os nossos serviços.</p>
-            </div>
+            <div className="pc-background"></div>
+            <div className="pc-background-img"></div>
             <Row>
                 <Col m={4} s={12}>
-                    <div id="info-tecno" className="pc-infos-img">
-                        
+                    <div id="info-tecno" className="p-infos">
+                        <div className="p-losango">
+                            <span><i class="fa fa-suitcase"></i></span>
+                        </div>    
+                        <h4>Tecnologia</h4>
+                        <p>Um breve texto explicando um pouco do que se trata o conteudo apresentado.</p>
+                    </div>
+                    
+                </Col>
+                <Col m={4} s={12}>
+                    <div id="info-pessoas" className="p-infos">
+                        <div className="p-losango">
+                            <span><i class="fa fa-trophy"></i></span>
+                        </div> 
+                        <h4>Pessoas</h4>
+                        <p>Um breve texto explicando um pouco do que se trata o conteudo apresentado.</p>
                     </div>
                 </Col>
-                <Col m={8} s={12}>
-                    <div className="pc-infos-text">
-                        
+                <Col m={4} s={12}>
+                    <div id="info-gestao" className="p-infos">
+                        <div className="p-losango">
+                            <span><i class="fa fa-rocket"></i></span>
+                        </div> 
+                        <h4>Gestão</h4>
+                        <p>Um breve texto explicando um pouco do que se trata o conteudo apresentado.</p>
                     </div>
                 </Col>
             </Row>
             <Row>
                 <Col m={4} s={12}>
-                    <div id="info-business" className="pc-infos-img">
-                        
+                    <div id="info-negocios" className="p-infos">
+                        <div className="p-losango">
+                            <span><i class="fa fa-suitcase"></i></span>
+                        </div>    
+                        <h4>Negócios</h4>
+                        <p>Um breve texto explicando um pouco do que se trata o conteudo apresentado.</p>
                     </div>
+                    
                 </Col>
-                <Col m={8} s={12}>
-                    <div className="pc-infos-text">
-                        
-                    </div>
-                </Col>
-            </Row>
-            <Row>
                 <Col m={4} s={12}>
-                    <div id="info-clientes" className="pc-infos-img">
-                        
+                    <div id="info-marcas" className="p-infos">
+                        <div className="p-losango">
+                            <span><i class="fa fa-trophy"></i></span>
+                        </div> 
+                        <h4>Marcas</h4>
+                        <p>Um breve texto explicando um pouco do que se trata o conteudo apresentado.</p>
                     </div>
                 </Col>
-                <Col m={8} s={12}>
-                    <div className="pc-infos-text">
-                        
-                    </div>
-                </Col>
-            </Row>
-            <Row>
                 <Col m={4} s={12}>
-                    <div id="info-gestao" className="pc-infos-img">
-                        
-                    </div>
-                </Col>
-                <Col m={8} s={12}>
-                    <div className="pc-infos-text">
-                        
+                    <div id="info-proposito" className="p-infos">
+                        <div className="p-losango">
+                            <span><i class="fa fa-rocket"></i></span>
+                        </div> 
+                        <h4>Propósito</h4>
+                        <p>Um breve texto explicando um pouco do que se trata o conteudo apresentado.</p>
                     </div>
                 </Col>
             </Row>

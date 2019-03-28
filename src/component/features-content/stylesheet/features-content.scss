@@ -10,7 +10,7 @@ $light-green: #5dba61;
 
 .features-content{
     position:relative;
-    padding: 4% 8% 20% 4%;
+    padding: 4% 8% 20% 6%;
     z-index:3;
 }
 .features-content .dc-titulo{
@@ -45,10 +45,7 @@ $light-green: #5dba61;
         color: $medium-blue;
     }
 }
-.show-feature1{opacity:1;transition:.8s;transform: translate(0px);}
-.show-feature2{opacity:1;transition:1.2s;transform: translate(0px);}
-.show-feature3{opacity:1;transition:1.6s;transform: translate(0px);}
-.show-feature4{opacity:1;transition:2s;transform: translate(0px);}
+.show-feature{opacity:1;transition:.8s;transform: translate(0px);}
 
 .material-icons{
     font-size:90px;

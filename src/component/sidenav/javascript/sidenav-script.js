@@ -46,16 +46,24 @@ $(document).ready(function($){
         else if(position <1800 && position > 1200){
             $('.vNav').removeClass('vNav-cor2');
             $('.vNav').addClass('vNav-cor1');
-            $('#feature1').addClass('show-feature1');
-            $('#feature2').addClass('show-feature2');
-            $('#feature3').addClass('show-feature3');
-            $('#feature4').addClass('show-feature4');
             $('.fc-img').addClass('fc-show-img');
             
         }
         else if(position <2400 && position > 1800){
             $('.vNav').removeClass('vNav-cor1');
             $('.vNav').addClass('vNav-cor2');
+            if(position > 1800 && position <1900){
+                $('#feature1').addClass('show-feature');    
+            }
+            else if(position > 1900 && position <2000){
+                $('#feature2').addClass('show-feature');    
+            }
+            else if(position > 2000 && position <2100){
+                $('#feature3').addClass('show-feature');    
+            }
+            else if(position > 2100 && position < 2400){
+                $('#feature4').addClass('show-feature');       
+            }
         }
         else if(position <3000 && position > 2400){
             $('.vNav').removeClass('vNav-cor2');
@@ -71,4 +79,5 @@ $(document).ready(function($){
 		$('.vNav ul li a').removeClass('active');
 		$(this).addClass('active');
 	});   
+	
 });

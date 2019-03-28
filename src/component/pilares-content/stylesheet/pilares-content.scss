@@ -7,16 +7,85 @@ $white: #FFFFFF;
 $black: #000000;
 $green: #4CAF50;
 $light-green: #5dba61;
+$purple: #cf8edc;
+$gold: #f1f897; 
+$red: #f44336;
 
 
-.pc-text{
-    padding: 0 8%;
-    position:relative;
-    h3{
-        color: $medium-blue;
+.p-infos{
+    position: relative;
+    padding-top: 10em;
+    text-align: center;
+    margin-top: 50%;
+    h4{
+        font-weight: 700;
+        font-size: 20px;
+        color: $lighter-blue;
+    }
+    p{
+        font-weight: 500;
+        font-size: 18px;
+        color: $lighter-blue;
+    }
+    .fa{
+        position: absolute;
+        font-size: 5em;
+        margin: 0;
+        padding: 10%;
+        left: 7px;
+        bottom: 8px;
+        -webkit-transform: rotate(45deg);
+        transform: rotate(45deg);
+        position: absolute;
     }
 }
-.pc-infos{
+.p-losango{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: transparent;
+    border: 2px solid #b1dcfb;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: -20px;
+    left: 30%;
+    border-radius: 5px;
+}
+.pc-background{
+    z-index: -1;
+    background-color: $black;
+    position: absolute;
+    left: 0;
+    top: 0;
     width: 100%;
+    height: 100%;
+    opacity: 0.85;
     
 }
+.pc-background-img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    -webkit-filter: blur(4px) grayscale(0.4);
+    filter: blur(4px) grayscale(0.4);
+    background-image: url(../img/background/pilares-bcgd.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment:fixed;
+}
+#info-tecno{h4{color:$medium-blue;}p{color:$white;}.fa{color:$medium-blue;}.p-losango{border: 2px solid $medium-blue;background-color:#0080ff21;}}
+#info-pessoas{h4{color:$water-blue;}p{color:$white;}.fa{color:$water-blue;}.p-losango{border: 2px solid $water-blue;background-color:#b1dcfb21;}}
+#info-gestao{h4{color:$light-green;}p{color:$white;}.fa{color:$light-green;}.p-losango{border: 2px solid $light-green;background-color:#5dba6121;}}
+#info-negocios{h4{color:$purple;}p{color:$white;}.fa{color:$purple;}.p-losango{border: 2px solid $purple;background-color:#cf8edc21;}}
+#info-marcas{h4{color:$gold;}p{color:$white;}.fa{color:$gold;}.p-losango{border: 2px solid $gold;background-color:#f1f89721;}}
+#info-proposito{h4{color:$red;}p{color:$white;}.fa{color:$red;}.p-losango{border: 2px solid $red;background-color:#f4433621;}}
+
+
+
+
+
+
+

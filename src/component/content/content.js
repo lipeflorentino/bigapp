@@ -13,7 +13,7 @@ import DigitalContent from '../digital-content/digital-content';
 import FeaturesContent from '../features-content/features-content';
 import EbookContent from '../ebook-content/ebook-content';
 import EmpresaContent from '../empresa-content/empresa-content';
-
+import PilaresContent from '../pilares-content/pilares-content';
 import ClientContent from '../client-content/client-content';
 import FooterContent from '../footer-content/footer-content';
 
@@ -27,7 +27,7 @@ const Content = () => (
         <FeaturesContent />
         <EbookContent />
         <EmpresaContent/>
-        
+        <PilaresContent/>
         <ClientContent />
         <FooterContent />
     </div>    
