@@ -19,7 +19,8 @@ const Nav = () => (
   
     <Navbar brand={icon} right>
       <NavItem className="toDigital">SOLUÇÕES DIGITAIS</NavItem>
-      <NavItem className="toEbook" onClick={() => alert('test click')}>E-BOOK</NavItem>
+      <NavItem className="toEbook">SAIBA MAIS</NavItem>
+      <NavItem className="toEmpresa">SOBRE</NavItem>
       <NavItem className="toClientes">CLIENTES</NavItem>
       <NavItem className="toContato">CONTATO</NavItem>
     </Navbar>  

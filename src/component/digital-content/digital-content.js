@@ -33,32 +33,7 @@ const DigitalContent = () => (
                     <li><div id="display-design" className="losango"></div></li>
                 </ul>
             </div>
-            
-            <div id="site" className="dc-text">
-                <h3>Sites</h3>
-                <p>Este texto que fala sobre desenvolvimento de sites, a importância de ter presença digital através de sites, SEO e muito mais.</p>
-                <a href="#" className="btn-class">Link Button</a>
-            </div>
-            
-            <div id="sistema" className="dc-text">
-                <h3>Sistemas</h3>
-                <p>Aqui vai entrar um texto que fala sobre desenvolvimento de sistemas, a importância de ter presença digital através de sites, SEO e muito mais.</p>
-                <a href="#" className="btn-class">Link Button</a>
-            </div>
-            
-            <div id="ideias" className="dc-text">
-                <h3>Consultores de Ideias</h3>
-                <p>Um outro texto que aborda o desenvolvimento de ideias, a importância de ter presença digital através de sites, SEO e muito mais.</p>
-                <a href="#" className="btn-class">Link Button</a>
-            </div>
-            
-            <div id="design" className="dc-text">
-                <h3>Design</h3>
-                <p>Agora este texto aqui fala sobre desenvolvimento de designs, também sobre a importância de ter presença digital através de sites, SEO e muito mais.</p>
-                <a href="#" className="btn-class">Link Button</a>
-            </div>
-            
-            <div className="trapezio">
+            <div className="dc-img-container">
                 <div id="site-img" className="digital-img">
                     <img src={site_img} title="" alt=""></img>
                 </div>
@@ -73,6 +48,31 @@ const DigitalContent = () => (
                 
                 <div id="design-img" className="digital-img">
                     <img src={design_img} title="" alt=""></img>
+                </div>
+            </div>
+            <div className="dc-container">
+                <div id="site" className="dc-text">
+                    <h3>Sites</h3>
+                    <p>Este texto que fala sobre desenvolvimento de sites, a importância de ter presença digital através de sites, SEO e muito mais.</p>
+                    <a href="#" className="btn-class">Link Button</a>
+                </div>
+                
+                <div id="sistema" className="dc-text">
+                    <h3>Sistemas</h3>
+                    <p>Aqui vai entrar um texto que fala sobre desenvolvimento de sistemas, a importância de ter presença digital através de sites, SEO e muito mais.</p>
+                    <a href="#" className="btn-class">Link Button</a>
+                </div>
+                
+                <div id="ideias" className="dc-text">
+                    <h3>Negócios Digitais</h3>
+                    <p>Um outro texto que aborda o desenvolvimento de ideias, a importância de ter presença digital através de sites, SEO e muito mais.</p>
+                    <a href="#" className="btn-class">Link Button</a>
+                </div>
+                
+                <div id="design" className="dc-text">
+                    <h3>Design</h3>
+                    <p>Agora este texto aqui fala sobre desenvolvimento de designs, também sobre a importância de ter presença digital através de sites, SEO e muito mais.</p>
+                    <a href="#" className="btn-class">Link Button</a>
                 </div>
             </div>
         </div>

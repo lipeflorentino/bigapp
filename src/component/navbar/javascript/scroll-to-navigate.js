@@ -14,21 +14,28 @@ $(document).ready(function() {
 
     $('.toDigital').click(function() {
         $('html, body').animate({
-            scrollTop: '700px'
+            scrollTop: '1100px'
         }, 1500);
         return false;
     });
         
     $('.toEbook').click(function() {
         $('html, body').animate({
-            scrollTop: '1400px'
+            scrollTop: '1800px'
         }, 1500);
         return false;
     });
-
+    
+    $('.toEmpresa').click(function() {
+        $('html, body').animate({
+            scrollTop: '3450px'
+        }, 1500);
+        return false;
+    });
+    
     $('.toClientes').click(function() {
         $('html, body').animate({
-            scrollTop: '2100px'
+            scrollTop: '5840px'
         }, 1500);
         return false;
     });

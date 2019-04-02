@@ -9,9 +9,10 @@ import './stylesheet/footer-content.scss';
 
 //Content
 const FooterContent = () => (
-
-    <div className="footer-content content" id="toFooter">
-        
+    <div>
+        <div className="footer-content content" id="toFooter">
+            
+        </div>    
     </div>    
 );
 

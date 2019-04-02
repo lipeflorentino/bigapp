@@ -17,6 +17,8 @@ $red: #f44336;
     padding-top: 10em;
     text-align: center;
     margin-top: 50%;
+    opacity:0;
+    transition:.8s;
     h4{
         font-weight: 700;
         font-size: 20px;
@@ -39,6 +41,7 @@ $red: #f44336;
         position: absolute;
     }
 }
+.p-infos-show{opacity:1;transition:.8s;}
 .p-losango{
     position: absolute;
     width: 120px;

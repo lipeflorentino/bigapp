@@ -55,14 +55,14 @@ $white: #FFFFFF;
 }
 .vNav-cor1 ul li{color: $white;}
 .vNav-cor1 a{border-color: $white;}
-.vNav-cor1 a:hover{background-color: $lighter-blue;}
-.vNav-cor1 a.active{background-color: $water-blue;}
+.vNav-cor1 a:hover{background-color: $white;}
+.vNav-cor1 a.active{background-color: $white;}
 .vNav-cor1 ul li a .label {color:$white;}
 
 .vNav-cor2 ul li{color: $darker-blue;}
 .vNav-cor2 a{border-color: $darker-blue;}
-.vNav-cor2 a:hover{background-color: $water-blue;}
-.vNav-cor2 a.active{background-color: $lighter-blue;}
+.vNav-cor2 a:hover{background-color: $darker-blue;}
+.vNav-cor2 a.active{background-color: $darker-blue;}
 .vNav-cor2 ul li a .label {color: $darker-blue;}
 
 

@@ -17,6 +17,7 @@ $black: #000000;
     
 }
 .digital-content{
+    overflow: hidden;
     background-color:$medium-blue;
     background-image: linear-gradient(to bottom right, $darker-blue, $water-blue);
     min-height: 700px;

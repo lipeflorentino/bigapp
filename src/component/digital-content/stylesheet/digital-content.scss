@@ -40,12 +40,12 @@ $light-green: #5dba61;
     z-index:2;
 }
 .dc-text{
-    width:30%;
-    float:left;
-    text-align:left;
-    z-index:3;
-    position:absolute;
-    left:-500px;
+    left: 110%;
+    position: absolute;
+    width: 35%;
+    text-align: left;
+    z-index: 3;
+    top: 30%;
     h3{
         font-size:3rem;
         color:$white;
@@ -55,6 +55,16 @@ $light-green: #5dba61;
         color:$white;
         opacity:0.75;
     }
+}
+.dc-show{
+    position: absolute;
+    transition: 0.6s !important;
+    opacity: 1 !important;
+    left: 54% !important;
+}
+.dc-img-show{
+    transition: 2.3s !important;
+    opacity:1 !important;
 }
 .trapezio {
     right: 0;
@@ -84,6 +94,15 @@ $light-green: #5dba61;
         }
     }
 }
+.dc-container{
+    z-index: 3;
+    width: 60%;
+    float: right;
+}
+.dc-img-container{
+    width:40%;
+    float:left;
+}
 .dc-menu li .dc-active{
     background-color: $water-blue;
 }
@@ -111,10 +130,9 @@ $light-green: #5dba61;
     position:relative;
     z-index:3;
     img{
-        width: 100%;
         position: absolute;
-        top: 50px;
-        right: 120px;
+        width: 100%;
+        left: 10%;
     }
 }
 .btn-class {
@@ -135,15 +153,7 @@ $light-green: #5dba61;
     transition:0.6s;
     opacity:0;
 }
-.dc-show{
-    transition: 0.6s !important;
-    opacity:1 !important;
-    left:115px !important;
-}
-.dc-img-show{
-    transition: 2.3s !important;
-    opacity:1 !important;
-}
+
 
 
     
