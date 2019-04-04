@@ -1,7 +1,7 @@
 // Importando o React
 import React from "react";
 // Importando os components necessários da lib react-materialize
-import { Row, Col, Card } from 'react-materialize';
+
 // Importando css e scss
 import './stylesheet/client-content.scss';
 // Importando img
@@ -28,39 +28,39 @@ const ClientContent = () => (
                                 <img src={img} title="" alt=""></img>
                             </div>
                             <div className="cc-text">
-                                <i class="fa fa-quote-left"></i>
+                                <i className="fa fa-quote-left"></i>
                                 <h4>O texto aqui é o depoimento de um outro cliente satisfeito, para aumentar o grau de confiabilidade da em,presa e atrair novos clientes.</h4>
-                                <i class="fa fa-quote-right"></i>
+                                <i className="fa fa-quote-right"></i>
                                 <p>Nome e Sobrenome - cargo</p>
                             </div>
-                            <div id="btn-slide3"><i class="fa fa-chevron-circle-left"></i></div>
-                            <div id="btn-slide2"><i class="fa fa-chevron-circle-right"></i></div>
+                            <div id="btn-slide3"><i className="fa fa-chevron-circle-left"></i></div>
+                            <div id="btn-slide2"><i className="fa fa-chevron-circle-right"></i></div>
                         </div>
                         <div id="slide2" className="cc-slide">
                             <div className="cc-img">
                                 <img src={img2} title="" alt=""></img>
                             </div>
                             <div className="cc-text">
-                                <i class="fa fa-quote-left"></i>
+                                <i className="fa fa-quote-left"></i>
                                 <h4>Aqui entra um texto de depoimento de um cliente satisfeito, para aumentar o grau de confiabilidade da em,presa e atrair novos clientes.</h4>
-                                <i class="fa fa-quote-right"></i>
+                                <i className="fa fa-quote-right"></i>
                                 <p>Nome e Sobrenome - cargo</p>
                             </div>
-                            <div id="btn-slide1"><i class="fa fa-chevron-circle-left"></i></div>
-                            <div id="btn-slide6"><i class="fa fa-chevron-circle-right"></i></div>
+                            <div id="btn-slide1"><i className="fa fa-chevron-circle-left"></i></div>
+                            <div id="btn-slide6"><i className="fa fa-chevron-circle-right"></i></div>
                         </div>
                         <div id="slide3" className="cc-slide">
                             <div className="cc-img">
                                 <img src={img3} title="" alt=""></img>
                             </div>
                             <div className="cc-text">
-                                <i class="fa fa-quote-left"></i>
+                                <i className="fa fa-quote-left"></i>
                                 <h4>Nesta parte entra o texto do cliente numero 3 o depoimento de um cliente satisfeito, para aumentar o grau de confiabilidade da em,presa e atrair novos clientes.</h4>
-                                <i class="fa fa-quote-right"></i>
+                                <i className="fa fa-quote-right"></i>
                                 <p>Nome e Sobrenome - cargo</p>
                             </div>
-                            <div id="btn-slide5"><i class="fa fa-chevron-circle-left"></i></div>
-                            <div id="btn-slide4"><i class="fa fa-chevron-circle-right"></i></div>
+                            <div id="btn-slide5"><i className="fa fa-chevron-circle-left"></i></div>
+                            <div id="btn-slide4"><i className="fa fa-chevron-circle-right"></i></div>
                         </div>
                     </div>    
                 </div>

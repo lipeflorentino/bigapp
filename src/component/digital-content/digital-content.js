@@ -1,7 +1,7 @@
 // Importando o React
 import React from "react";
 // Importando os components necessários da lib react-materialize
-import { Row, Col, Card } from 'react-materialize';
+
 // Importando css e scss
 import './stylesheet/digital-content.scss';
 // Importando img
@@ -54,25 +54,25 @@ const DigitalContent = () => (
                 <div id="site" className="dc-text dc-show">
                     <h3>Sites</h3>
                     <p>Este texto que fala sobre desenvolvimento de sites, a importância de ter presença digital através de sites, SEO e muito mais.</p>
-                    <a href="#" className="btn-class">Link Button</a>
+                    <a href="/" className="btn-class">Link Button</a>
                 </div>
                 
                 <div id="sistema" className="dc-text">
                     <h3>Sistemas</h3>
                     <p>Aqui vai entrar um texto que fala sobre desenvolvimento de sistemas, a importância de ter presença digital através de sites, SEO e muito mais.</p>
-                    <a href="#" className="btn-class">Link Button</a>
+                    <a href="/" className="btn-class">Link Button</a>
                 </div>
                 
                 <div id="ideias" className="dc-text">
                     <h3>Negócios Digitais</h3>
                     <p>Um outro texto que aborda o desenvolvimento de ideias, a importância de ter presença digital através de sites, SEO e muito mais.</p>
-                    <a href="#" className="btn-class">Link Button</a>
+                    <a href="/" className="btn-class">Link Button</a>
                 </div>
                 
                 <div id="design" className="dc-text">
                     <h3>Design</h3>
                     <p>Agora este texto aqui fala sobre desenvolvimento de designs, também sobre a importância de ter presença digital através de sites, SEO e muito mais.</p>
-                    <a href="#" className="btn-class">Link Button</a>
+                    <a href="/" className="btn-class">Link Button</a>
                 </div>
             </div>
         </div>

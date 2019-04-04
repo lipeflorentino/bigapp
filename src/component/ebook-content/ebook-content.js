@@ -1,7 +1,7 @@
 // Importando o React
 import React from "react";
 // Importando os components necessários da lib react-materialize
-import { Row, Col, Card } from 'react-materialize';
+
 // Importando css e scss
 import './stylesheet/ebook-content.scss';
 
@@ -17,7 +17,7 @@ const EbookContent = () => (
             <div className="ec-titulo">
                 <h3>Quer Saber Mais?</h3>
                 <p>baixe gratuitamente o ebook.</p>
-                <a href="#" className="btn-class">Link Button</a>
+                <a href="/" className="btn-class">Link Button</a>
             </div>
         </div>    
     </div>    

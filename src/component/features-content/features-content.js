@@ -1,7 +1,7 @@
 // Importando o React
 import React from "react";
 // Importando os components necessários da lib react-materialize
-import { Row, Col, Card } from 'react-materialize';
+import { Row, Col } from 'react-materialize';
 // Importando css e scss
 import './stylesheet/features-content.scss';
 import img from './img/celular2.png';

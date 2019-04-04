@@ -1,7 +1,7 @@
 // Importando o React
 import React from "react";
 // Importando os components necessários da lib react-materialize
-import { Row, Col, Input, NavItem, Navbar} from 'react-materialize';
+import { NavItem, Navbar} from 'react-materialize';
 //Importando css e scss files
 import './stylesheet/navbar.scss';
 //Importando js files

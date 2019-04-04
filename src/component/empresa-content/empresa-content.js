@@ -1,11 +1,11 @@
 // Importando o React
 import React from "react";
 // Importando os components necessários da lib react-materialize
-import { Row, Col, Card } from 'react-materialize';
+import { Row, Col } from 'react-materialize';
 // Importando css e scss
 import './stylesheet/empresa-content.scss';
 // Importando img
-import emp_img from './img/empresa.jpg';
+
 
 
 //importando componentes
@@ -23,7 +23,7 @@ const EmpresaContent = () => (
                     <Row>
                         <Col m={6} s={12}>
                             <div id="emp-bus" className="emp-rect">
-                                <span><i class="fa fa-suitcase"></i><p>Business</p></span>
+                                <span><i className="fa fa-suitcase"></i><p>Business</p></span>
                             </div>
                         </Col>
                         <Col m={6} s={12}>
@@ -37,7 +37,7 @@ const EmpresaContent = () => (
                     <Row>
                         <Col m={6} s={12}>
                             <div id="emp-inteli" className="emp-rect">
-                                <span><i class="fa fa-trophy"></i><p>Intelligence</p></span>
+                                <span><i className="fa fa-trophy"></i><p>Intelligence</p></span>
                             </div>    
                         </Col>  
                         <Col m={6} s={12}>
@@ -51,7 +51,7 @@ const EmpresaContent = () => (
                     <Row>
                         <Col m={6} s={12}>
                             <div id="emp-great" className="emp-rect">
-                                <span><i class="fa fa-rocket"></i><p>Greatness</p></span>
+                                <span><i className="fa fa-rocket"></i><p>Greatness</p></span>
                             </div>    
                         </Col>  
                         <Col m={6} s={12}>

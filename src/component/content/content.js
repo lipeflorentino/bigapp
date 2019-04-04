@@ -1,9 +1,9 @@
 // Importando o React
 import React from "react";
 // Importando os components necessários da lib react-materialize
-import { Row, Col, Card } from 'react-materialize';
+
 //importando componente de media query
-import MediaQuery from "react-responsive";
+
 // Importando css e scss
 import './stylesheet/content.scss';
 
