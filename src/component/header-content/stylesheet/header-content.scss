@@ -7,6 +7,7 @@ $white: #FFFFFF;
 $black: #000000;
 $green: #4CAF50;
 $light-green: #5dba61;
+$light-white: #ffffff40;
 
 .header-title{
     padding: 0 12% 0 0;
@@ -69,6 +70,31 @@ $light-green: #5dba61;
         margin-right:40px;
         
     }
+}
+.hc-arrow{
+    position:absolute;
+    bottom:50px;
+    left:50%;
+    z-index:4;
+    opacity:0;
+    transition:.4s;
+    .fa{
+        font-size:3em;
+        color:$white;
+        opacity:0.85;
+        border-radius:100%;
+        background-color:transparent;
+        transition:.4s;
+    }
+    .fa:hover{
+        background-color: $light-white;
+        transition:.4s;
+    }
+}
+.hc-arrow-show{
+    bottom:70px;
+    opacity:0.85;
+    transition:.4s;
 }
 
 /* Animações do header */

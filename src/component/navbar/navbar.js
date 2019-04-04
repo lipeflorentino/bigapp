@@ -5,7 +5,7 @@ import { Row, Col, Input, NavItem, Navbar} from 'react-materialize';
 //Importando css e scss files
 import './stylesheet/navbar.scss';
 //Importando js files
-import "./javascript/scroll-to-navigate.js";
+import "./javascript/click-to-navigate.js";
 import logo from '../../img/logo/big_logo_new_06.png';
     
 const icon = (
@@ -18,11 +18,11 @@ const icon = (
 const Nav = () => (
   
     <Navbar brand={icon} right>
-      <NavItem className="toDigital">SOLUÇÕES DIGITAIS</NavItem>
-      <NavItem className="toEbook">SAIBA MAIS</NavItem>
-      <NavItem className="toEmpresa">SOBRE</NavItem>
-      <NavItem className="toClientes">CLIENTES</NavItem>
-      <NavItem className="toContato">CONTATO</NavItem>
+      <NavItem href="/solucoes-digitais">SOLUÇÕES DIGITAIS</NavItem>
+      <NavItem href="/oficina-de-startups">OFICIA DE STARTUPS</NavItem>
+      <NavItem href="/sobre-a-big">SOBRE</NavItem>
+      <NavItem href="/projetos">PROJETOS</NavItem>
+      <NavItem href="/contato">CONTATO</NavItem>
     </Navbar>  
 );
 

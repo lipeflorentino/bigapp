@@ -53,6 +53,9 @@ $white: #FFFFFF;
     border-radius: 50%;
     text-decoration: none;
 }
+.vNav a.active .label{
+    opacity:1;
+}
 .vNav-cor1 ul li{color: $white;}
 .vNav-cor1 a{border-color: $white;}
 .vNav-cor1 a:hover{background-color: $white;}

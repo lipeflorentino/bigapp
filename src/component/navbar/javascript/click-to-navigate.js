@@ -12,7 +12,7 @@ $(document).ready(function() {
         return false;
     });
 
-    $('.toDigital').click(function() {
+    $('#toDigital').click(function() {
         $('html, body').animate({
             scrollTop: '1100px'
         }, 1500);
@@ -42,7 +42,7 @@ $(document).ready(function() {
     
     $('.toContato').click(function() {
         $('html, body').animate({
-            scrollTop: $(document).height()
+            scrollTop: '7180px'
         }, 1500);
         return false;
     });

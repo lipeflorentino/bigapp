@@ -34,7 +34,6 @@ $black: #000000;
     text-align: center;
     left: 0px;
     padding: 0 25%;
-    overflow:hidden;
     opacity:0;
     transition:1.4s;
     .fa{
@@ -52,6 +51,7 @@ $black: #000000;
     z-index:5;
 }
 .cc-text{
+    position:relative;
     h4{
         font-size: 1.3em;
         margin: 50px 10px 20px 10px;
@@ -61,14 +61,29 @@ $black: #000000;
     p{
         font-size:1.1em;
         font-style:italic;
+        font-weight:bold;
+    }
+    .fa{
+        font-size: 2em;
+        position: absolute; 
+    }
+    .fa-quote-left{
+        top: -25px;
+        left: -35px;
+    }
+    .fa-quote-right{
+        right: -25px;
+        bottom: 35px
     }
 }
 .cc-img{
     position:relative;
     padding:30px;
     img{
-        width:100px;
-        height:100px;
+        width: 120px;
+        height: 120px;
+        box-shadow: 2px 1px 4px darkgrey;
+        border-radius: 100%;
     }
 }
 #btn-slide1, #btn-slide2, #btn-slide3,#btn-slide4, #btn-slide5, #btn-slide6{
@@ -77,5 +92,6 @@ $black: #000000;
 }
 .depo-icon{
     font-size:1em;
-    font-weight:bold;
+    font-weight:lighter;
+    color:$black;
 }

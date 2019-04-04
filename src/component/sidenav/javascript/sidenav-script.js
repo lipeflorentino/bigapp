@@ -35,13 +35,11 @@ $(document).ready(function($){
         if(position > 750 && position <1400){
             $('.vNav').removeClass('vNav-cor2');
             $('.vNav').addClass('vNav-cor1');
-            $('#site').addClass('dc-show');
-            $('#site-img').addClass('dc-img-show');
             index=1;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
         }
-        else if(position > 1450 && position < 2500){
+        else if(position > 1401 && position < 2500){
             $('.vNav').removeClass('vNav-cor1');
             $('.vNav').addClass('vNav-cor2');
             $('.fc-img').addClass('fc-show-img');
@@ -57,69 +55,66 @@ $(document).ready(function($){
             if(position > 2000){
                 $('#feature3').addClass('show-feature');    
             }
-            if(position > 2100){
+            if(position > 2150){
                 $('#feature4').addClass('show-feature');       
             }
         }
-        else if(position > 2550 && position < 2950){
+        else if(position > 2501 && position < 2950){
             $('.vNav').removeClass('vNav-cor2');
             $('.vNav').addClass('vNav-cor1');
             index=2;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
         }
-        else if(position > 3000 && position < 4040){
+        else if(position > 2951 && position < 4040){
             $('.vNav').removeClass('vNav-cor1');
             $('.vNav').addClass('vNav-cor2');
             index=3;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
             if(position > 3250){
-                $('.emp-box div:first-child').addClass('emp-show');
-                $('.emp-text p:first-child').addClass('emp-show');
+                $('.emp-container .emp-box:first-child').addClass('emp-show');
             }
             if(position > 3450){
-                $('.emp-box div:nth-child(2)').addClass('emp-show');
-                $('.emp-text p:nth-child(2)').addClass('emp-show');
+                $('.emp-container .emp-box:nth-child(2)').addClass('emp-show');
             }
             if(position > 3650){
-                $('.emp-box div:nth-child(3)').addClass('emp-show');
-                $('.emp-text p:nth-child(3)').addClass('emp-show');
+                $('.emp-container .emp-box:nth-child(3)').addClass('emp-show');
             }
         }
-        else if(position > 4040 && position < 5140){
+        else if(position > 4041 && position < 5470){
             $('.vNav').removeClass('vNav-cor2');
             $('.vNav').addClass('vNav-cor1');
             index=3;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
-            if(position > 4210){
+            if(position > 4220){
                 $('#info-tecno').addClass('p-infos-show');
             }
-            if(position > 4340){
+            if(position > 4400){
                 $('#info-pessoas').addClass('p-infos-show');
             }
-            if(position > 4460){
+            if(position > 4540){
                 $('#info-gestao').addClass('p-infos-show');
             }
-            if(position > 4740){
+            if(position > 4680){
                 $('#info-negocios').addClass('p-infos-show');
             }
-            if(position > 4800){
+            if(position > 4820){
                 $('#info-marcas').addClass('p-infos-show');
             }
-            if(position > 5100){
+            if(position > 4960){
                 $('#info-proposito').addClass('p-infos-show');
             }
         }
-        else if(position > 5180 && position < 6400){
+        else if(position > 5471 && position < 6560){
             $('.vNav').removeClass('vNav-cor1');
             $('.vNav').addClass('vNav-cor2');
             index=4;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
         }
-        else{
+        else if(position > 6561){
             $('.vNav').removeClass('vNav-cor2');
             $('.vNav').addClass('vNav-cor1');
             index=5;

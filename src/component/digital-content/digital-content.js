@@ -34,7 +34,7 @@ const DigitalContent = () => (
                 </ul>
             </div>
             <div className="dc-img-container">
-                <div id="site-img" className="digital-img">
+                <div id="site-img" className="digital-img dc-img-show">
                     <img src={site_img} title="" alt=""></img>
                 </div>
                 
@@ -51,7 +51,7 @@ const DigitalContent = () => (
                 </div>
             </div>
             <div className="dc-container">
-                <div id="site" className="dc-text">
+                <div id="site" className="dc-text dc-show">
                     <h3>Sites</h3>
                     <p>Este texto que fala sobre desenvolvimento de sites, a importância de ter presença digital através de sites, SEO e muito mais.</p>
                     <a href="#" className="btn-class">Link Button</a>
