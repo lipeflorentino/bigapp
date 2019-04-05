@@ -1,61 +1,39 @@
 // Importando o React
 import React from "react";
+import fetch from 'cross-fetch';
 
-const nodemailer = require('nodemailer');
-
+const api = "https://big-api.herokuapp.com/sendmail";
 class MyForm extends React.Component {
-  constructor() {
-    super();
-    this.handleSubmit = this.handleSubmit.bind(this);
-    this.enviaEmail = this.enviaEmail.bind(this);
-  }
-  
-  enviaEmail(){
+    constructor() {
+        super();
+        this.handleSubmit = this.handleSubmit.bind(this);
+    }
     
-        const $usuario = 'lipeflorentino2@gmail.com';
-        const $senha = 'condor1010'; 
-        console.log('adquirindo credentials...');
-        const transporter = nodemailer.createTransport({
-            service: 'gmail',
-            port: 465,
-            auth: {
-                user: $usuario,
-                pass: $senha
-            }
+    enviarEmail (){
+        fetch(api, { mode: 'no-cors' })
+          .then(response => response.json()) // retorna uma promise
+          .then(result => {
+            console.log(result);
+          })
+          .catch(err => {
+          // trata se alguma das promises falhar
+          console.error('Failed retrieving information', err);
         });
-        console.log('preparando mensagem...');
-        const $destinatario = 'lipeflorentino2@gmail.com';
-        
-        const mailOptions = {
-            from: $usuario,
-            to: $destinatario,
-            subject: 'Enviando um email pelo Node.js',
-            text: 'Muito fácil enviar um email pelo node, tente você também!'
-        };
-        console.log('mensagem pronta para ser enviada!');
-        
-        transporter.sendMail(mailOptions, function(error, info){
-            if (error) {
-                console.log(error);
-            } else {
-                console.log('Email enviado: ' + info.response);
-            }
-        });
-        
-    }   
+    }
 
     handleSubmit(event) {
+        console.log('event: ' + event);
         event.preventDefault();
         const data = new FormData(event.target);
         console.log('data: ' + data);
-        this.enviaEmail();
+        this.enviarEmail();
     }
 
   render() {
     return (
         <div className="ft-form">
             <div className="row">
-                <form onSubmit={this.handleSubmit} className="col s12">
+                <form onSubmit={this.handleSubmit.bind(this)} className="col s12">
                     <div className="row">
                         <div className="input-field col s6">
                             <i className="material-icons prefix">account_circle</i>
