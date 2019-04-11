@@ -1,7 +1,7 @@
 // Importando o React
 import React from "react";
 // Importando os components necessários da lib react-materialize
-
+import {Row, Col} from 'react-materialize';
 // Importando css e scss
 import './stylesheet/digital-content.scss';
 // Importando img
@@ -19,9 +19,20 @@ import './javascript/mini-menu.js';
 const DigitalContent = () => (
     <div>
         <div className="dc-titulo">
-            <h2>NOSSAS SOLUÇÕES</h2>
-            <div className="title-underline"></div>
-            <p>Texto para atrair a atenção do visitante para as soluções da empresa.</p>
+            <Row>
+                <Col m={6} s={12}>
+                    <div className="dc-title-img dc-title-img-show">
+                        <img src={site_img} title="" alt=""></img>
+                    </div>
+                </Col>
+                <Col m={6} s={12}>
+                    <div className="dc-title-text">
+                        <h2>NOSSAS SOLUÇÕES</h2>
+                        <p>Texto para atrair a atenção do visitante para as soluções da empresa, falar sobre o padrão de qualidade e outras coisas que valorizem a empresa.</p>
+                        <a href="/" className="btn-class">Link Button</a>
+                    </div>
+                </Col>
+            </Row>
         </div>
         <div className="digital-content content" id="toDigital">
             <div className="digital-background"></div>
@@ -33,48 +44,55 @@ const DigitalContent = () => (
                     <li><div id="display-design" className="losango"></div></li>
                 </ul>
             </div>
-            <div className="dc-img-container">
-                <div id="site-img" className="digital-img dc-img-show">
-                    <img src={site_img} title="" alt=""></img>
-                </div>
-                
-                <div id="sistema-img" className="digital-img">
-                    <img src={sistema_img} title="" alt=""></img>
-                </div>
-                
-                <div id="ideias-img" className="digital-img">
-                    <img src={ideias_img} title="" alt=""></img>
-                </div>
-                
-                <div id="design-img" className="digital-img">
-                    <img src={design_img} title="" alt=""></img>
-                </div>
-            </div>
-            <div className="dc-container">
-                <div id="site" className="dc-text dc-show">
-                    <h3>Sites</h3>
-                    <p>Este texto que fala sobre desenvolvimento de sites, a importância de ter presença digital através de sites, SEO e muito mais.</p>
-                    <a href="/" className="btn-class">Link Button</a>
-                </div>
-                
-                <div id="sistema" className="dc-text">
-                    <h3>Sistemas</h3>
-                    <p>Aqui vai entrar um texto que fala sobre desenvolvimento de sistemas, a importância de ter presença digital através de sites, SEO e muito mais.</p>
-                    <a href="/" className="btn-class">Link Button</a>
-                </div>
-                
-                <div id="ideias" className="dc-text">
-                    <h3>Negócios Digitais</h3>
-                    <p>Um outro texto que aborda o desenvolvimento de ideias, a importância de ter presença digital através de sites, SEO e muito mais.</p>
-                    <a href="/" className="btn-class">Link Button</a>
-                </div>
-                
-                <div id="design" className="dc-text">
-                    <h3>Design</h3>
-                    <p>Agora este texto aqui fala sobre desenvolvimento de designs, também sobre a importância de ter presença digital através de sites, SEO e muito mais.</p>
-                    <a href="/" className="btn-class">Link Button</a>
-                </div>
-            </div>
+            <Row>
+                <Col m={6} s={12}>
+                    <div className="dc-img-container">
+                        <div id="site-img" className="digital-img dc-img-show">
+                            <img src={site_img} title="" alt=""></img>
+                        </div>
+                        
+                        <div id="sistema-img" className="digital-img">
+                            <img src={sistema_img} title="" alt=""></img>
+                        </div>
+                        
+                        <div id="ideias-img" className="digital-img">
+                            <img src={ideias_img} title="" alt=""></img>
+                        </div>
+                        
+                        <div id="design-img" className="digital-img">
+                            <img src={design_img} title="" alt=""></img>
+                        </div>
+                    </div>
+                </Col>    
+                <Col m={6} s={12}>
+                    <div className="dc-container">
+                        <div id="site" className="dc-text dc-show">
+                            <h3>Sites</h3>
+                            <p>Este texto que fala sobre desenvolvimento de sites, a importância de ter presença digital através de sites, SEO e muito mais.</p>
+                            <a href="/" className="btn-class">Link Button</a>
+                        </div>
+                        
+                        <div id="sistema" className="dc-text">
+                            <h3>Sistemas</h3>
+                            <p>Aqui vai entrar um texto que fala sobre desenvolvimento de sistemas, a importância de ter presença digital através de sites, SEO e muito mais.</p>
+                            <a href="/" className="btn-class">Link Button</a>
+                        </div>
+                        
+                        <div id="ideias" className="dc-text">
+                            <h3>Negócios Digitais</h3>
+                            <p>Um outro texto que aborda o desenvolvimento de ideias, a importância de ter presença digital através de sites, SEO e muito mais.</p>
+                            <a href="/" className="btn-class">Link Button</a>
+                        </div>
+                        
+                        <div id="design" className="dc-text">
+                            <h3>Design</h3>
+                            <p>Agora este texto aqui fala sobre desenvolvimento de designs, também sobre a importância de ter presença digital através de sites, SEO e muito mais.</p>
+                            <a href="/" className="btn-class">Link Button</a>
+                        </div>
+                    </div>
+                </Col>    
+            </Row>
+            <div className="clearfix"></div>
         </div>
     </div>
 );

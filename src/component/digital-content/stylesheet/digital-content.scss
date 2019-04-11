@@ -11,15 +11,23 @@ $light-green: #5dba61;
 .dc-titulo{
     text-align:center;
     min-height:200px;
-    padding:6% 8% 8% 8%;
+    padding:3% 8%;
     background-color:$white;
     h2{
         color:$medium-blue;
-        font-size:2.5rem;
+        font-size:2rem;
     }
     p{
-        color:$medium-blue;
+        color:$black;
+        opacity:0.85;
+        font-size:1.2rem;
     }
+}
+.dc-title-img img{
+    width:60%;
+}
+.dc-title-text{
+    text-align:left;
 }
 .title-underline{
     margin: 0px 48%;
@@ -82,8 +90,8 @@ $light-green: #5dba61;
     height:80px;
     position:absolute;
     margin:auto;
-    top:10px;
-    left:41%;
+    top:30px;
+    left:39%;
     z-index:4;
 }
 .dc-menu{
@@ -100,6 +108,7 @@ $light-green: #5dba61;
     float: right;
 }
 .dc-img-container{
+    padding-top:8%;
     width:40%;
     float:left;
 }
@@ -152,6 +161,92 @@ $light-green: #5dba61;
 #site-img, #sistema-img, #ideias-img, #design-img{
     transition:0.6s;
     opacity:0;
+}
+
+@media only screen and (max-width: 600px) {
+    .dc-title-text {
+        text-align: center;
+    }
+    .dc-title-img img{
+        width:100%;
+    }
+    .dc-menu{
+        text-align: center;
+        position: relative;
+        height: 30px;
+        margin: 0;
+        left: 0;
+        z-index: 4;
+        width: 100%;
+        ul{
+            position: relative;
+            width: 100%;
+            display: flex;
+            text-align: center;
+            li {
+                float: none;
+                width: 25%;
+                text-align: center;
+                margin: 0 10%;
+            }
+        }
+    }
+    .dc-img-container{
+        position: relative;
+        padding-top: 25%;
+        width: 100%;
+        height: 350px;
+        float: none;
+        .digital-img {
+                width: 100%;
+                position: absolute;
+                z-index: 3;
+            img{
+                position: relative;
+                width: 100%;
+                padding: 0;
+                left: 0;
+                top:0;
+            }
+        }    
+    }
+    .dc-container{
+        position: relative;
+        height: 350px;
+        float: none;
+        width: 100%;
+    }
+    .dc-text {
+        padding: 12px;
+        left: 110%;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        z-index: 3;
+        top: 0;
+        h3{
+            font-size:2.8rem;
+        }
+        p{
+            font-size:1.5rem;
+        }
+    }
+    .dc-show {
+        position: absolute;
+        transition: 0.6s !important;
+        opacity: 1 !important;
+        left: 0% !important;
+        top: 0 !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .dc-img-container{
+           position: relative;
+            height: 250px;
+            padding-top: 15%;
+    }
+     
 }
 
 

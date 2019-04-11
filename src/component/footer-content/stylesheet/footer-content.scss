@@ -19,14 +19,23 @@ $green:#4CAF50;
         color:$white;
         font-weight:700;
     }
+    h4{
+        font-size:1.8;
+        text-align:left;
+        color:$medium-blue;
+    }
     p{
-        color:white;
+        color:$white;
         opacity:0.85;
         font-size:1em;
     }
 }
+.ft-pad{
+    padding: 6% 5% 0 0;
+}
 .ft-form{
-    padding:6% 16%;
+    background-color: white;
+    margin: 6% 16%;
 }
 .ft-btn{
     padding:6%;
@@ -42,7 +51,7 @@ $green:#4CAF50;
     }
 }
 .input-field{
-    color:white;
+    color:black;
     .material-icons{
         padding-top: 12px;
         color:$white;

@@ -23,10 +23,13 @@ $(document).ready(function($){
         var position = $(document).scrollTop(),
             index; 
             
-        if(position > 750){
+        if(position > 750 && position < 7480){
             $('.vNav').show();
         }
-        else if(position < 740){
+        else if(position > 7500){
+            $('.vNav').hide();
+        }
+        if(position < 740){
             $('.vNav').hide();
             index=0;
             $('.vNav ul li a').removeClass('active');

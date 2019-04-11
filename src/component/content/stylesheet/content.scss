@@ -6,15 +6,19 @@ $lighter-blue: #b1dcfb;
 $white: #FFFFFF;
 $black: #000000;
 
+.content-container{
+    position: relative;
+    overflow: hidden;
+}
 .content{
     z-index:1;
-    padding: 13% 8% 1px 8%;
+    padding: 8% 8% 1px 8%;
     position:relative;
 }
 .header-content{
     min-height: 700px;
     background-image: linear-gradient(to bottom right, $darker-blue, $water-blue);
-    
+    text-align: center;
 }
 .digital-content{
     overflow: hidden;
@@ -50,4 +54,10 @@ $black: #000000;
 .footer-content{
     min-height: 700px;
     background-color:$black;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        padding: 3%;
+    }
 }

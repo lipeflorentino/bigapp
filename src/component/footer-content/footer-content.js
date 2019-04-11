@@ -16,7 +16,7 @@ const FooterContent = () => (
             <div className="ft-titulo">
                 <h3>Fale Conosco</h3>
                 <p>Aqui entra um texto para convencer o visitante a entrar em contato</p>
-            </div>
+            </div>    
             <MyForm></MyForm>
         </div>    
         <div className="ft-socials">

@@ -80,3 +80,9 @@ $white: #FFFFFF;
     transition:0.6s;
     opacity:0;
 }
+
+@media only screen and (max-width: 600px) {
+    .vNav{
+        display:none !important;
+    }
+}
