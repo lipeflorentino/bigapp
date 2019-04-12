@@ -97,6 +97,12 @@ $light-white: #ffffff40;
 .anim2 img{opacity: 1;margin-left: 0px;transition: 0.9s}
 
 /* Layout responsivo */
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    .header-title{
+        padding-top:20%;
+    }
+}
 @media only screen and (max-width: 600px) {
     
     .header-title{

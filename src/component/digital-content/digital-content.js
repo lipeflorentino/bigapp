@@ -7,9 +7,6 @@ import './stylesheet/digital-content.scss';
 // Importando img
 import img from '../../img/multiplataform2.png';
 import site_img from '../../img/multiplataform2.png';
-import sistema_img from '../../img/multiplataform2.png';
-import ideias_img from '../../img/multiplataform2.png';
-import design_img from '../../img/multiplataform2.png';
 // Importando js
 import './javascript/mini-menu.js';
 
@@ -45,26 +42,7 @@ const DigitalContent = () => (
                 </ul>
             </div>
             <Row>
-                <Col m={6} s={12}>
-                    <div className="dc-img-container">
-                        <div id="site-img" className="digital-img dc-img-show">
-                            <img src={site_img} title="" alt=""></img>
-                        </div>
-                        
-                        <div id="sistema-img" className="digital-img">
-                            <img src={sistema_img} title="" alt=""></img>
-                        </div>
-                        
-                        <div id="ideias-img" className="digital-img">
-                            <img src={ideias_img} title="" alt=""></img>
-                        </div>
-                        
-                        <div id="design-img" className="digital-img">
-                            <img src={design_img} title="" alt=""></img>
-                        </div>
-                    </div>
-                </Col>    
-                <Col m={6} s={12}>
+                <Col m={12} s={12}>
                     <div className="dc-container">
                         <div id="site" className="dc-text dc-show">
                             <h3>Sites</h3>

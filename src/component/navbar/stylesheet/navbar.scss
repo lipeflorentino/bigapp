@@ -34,7 +34,41 @@ nav ul li{
     transition: 0.7s;
 }
 
+
 /*responsivo*/
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    nav .button-collapse {
+        padding-top: 2px;
+        float:right;
+        border: 1px solid white;
+        padding: 0px;
+    }
+    nav .brand-logo {
+        float: left;
+        left: 10%;
+    }
+     nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
+        font-size:50px;
+        color:$white;
+    }
+    .side-nav{
+        width:100%;
+    }
+    .side-nav a {
+        color: $dark-blue;
+    }
+    #nav-mobile{
+        background-color: #ffffffe6;
+        height: 27%;
+        margin: 16% 0%;
+        padding: 7px;
+        text-align:center;
+    }
+    #sidenav-overlay{
+        opacity:0 !important;
+        display:none !important;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     .header-title{
@@ -75,36 +109,5 @@ nav ul li{
     nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
         font-size:50px;
         color:$white;
-    }
-}
-@media only screen and (min-width: 601px) and (max-width: 992px) {
-    nav .button-collapse {
-        padding-top: 2px;
-        float:right;
-    }
-    nav .brand-logo {
-        float: left;
-        left: 10%;
-    }
-     nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons{
-        font-size:50px;
-        color:$white;
-    }
-    .side-nav{
-        width:100%;
-    }
-    .side-nav a {
-        color: $dark-blue;
-    }
-    #nav-mobile{
-        background-color: #ffffffe6;
-        height: 27%;
-        margin: 15% 0%;
-        padding: 7px;
-        text-align:center;
-    }
-    #sidenav-overlay{
-        opacity:0 !important;
-        display:none !important;
     }
 }
