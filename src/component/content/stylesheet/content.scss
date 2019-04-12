@@ -56,9 +56,20 @@ $black: #000000;
     min-height: 700px;
     background-color:$black;
 }
-
+@media only screen and (max-width: 991px) {
+    .pilares-content{
+        padding:8%;
+    }
+}
 @media only screen and (max-width: 600px) {
     .content {
-        padding: 3%;
+        padding: 27% 3% 3% 3%;
+        width:100%;
+    }
+    .client-content{
+        height:100vh;
+    }
+    .footer-content{
+        height:100vh;
     }
 }

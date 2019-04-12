@@ -14,15 +14,15 @@ $red: #f44336;
 
 .p-infos{
     position: relative;
-    padding-top: 10em;
     text-align: center;
-    margin-top: 50%;
-    opacity:0;
-    transition:.8s;
+    margin: 25% 0;
+    opacity: 0;
+    transition: .8s;
     h4{
         font-weight: 700;
         font-size: 20px;
         color: $lighter-blue;
+        margin-top: 5vh;
     }
     p{
         font-weight: 500;
@@ -43,16 +43,15 @@ $red: #f44336;
 }
 .p-infos-show{opacity:1;transition:.8s;}
 .p-losango{
-    position: absolute;
+    position: relative;
     width: 120px;
     height: 120px;
     background: transparent;
-    border: 2px solid #b1dcfb;
+    border: 2px solid $lighter-blue;
     -webkit-transform: rotate(-45deg);
     transform: rotate(-45deg);
-    top: -20px;
-    left: 30%;
     border-radius: 5px;
+    margin:auto;
 }
 .pc-background{
     z-index: -1;

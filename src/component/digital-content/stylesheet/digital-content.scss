@@ -30,7 +30,8 @@ $light-green: #5dba61;
     text-align:left;
 }
 .title-underline{
-    margin: 0px 48%;
+    margin: auto;
+    width:43px;
     background-color: $medium-blue;
     height: 4px;
     border-radius: 2px;
@@ -251,10 +252,11 @@ $light-green: #5dba61;
             text-align: center;
             position: relative;
             height: 50px;
-            margin: 0 0 40px 0;
+            margin: 15% 0 40px 0;
             left: 0;
             z-index: 4;
             width: 100%;
+            padding: 0 15%;
         ul{
             position: relative;
             width: 100%;
@@ -265,6 +267,10 @@ $light-green: #5dba61;
                 width: 25%;
                 text-align: center;
                 margin: 0 10%;
+                .losango{
+                    width:13px;
+                    height:13px;
+                }
             }
         }
     }
@@ -273,7 +279,7 @@ $light-green: #5dba61;
         height: 400px;
         float: none;
         width: 100%;
-        margin-top: 40px;
+        margin-top: 25%;
     }
     .dc-text {
         padding: 12px;
@@ -297,6 +303,18 @@ $light-green: #5dba61;
         left: 0% !important;
         top: 0 !important;
     }
+    .dc-titulo{
+        height: 100vh;
+        padding-top:40%;
+    }
+    .header-content{
+        height: 100vh;
+    }
+    .digital-content{
+        height: 100vh;
+    }
+    
+    
 }
 
 @media only screen and (max-width: 375px) {

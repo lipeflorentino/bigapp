@@ -13,7 +13,7 @@ import img from './img/celular2.png';
 const FeaturesContent = () => (
     <div>
         <div className="features-content content" id="toFeatures">
-            <div className="dc-titulo">
+            <div className="fe-titulo">
                 <h2>Por quê ter presença Digital?</h2>
                 <div className="title-underline"></div>
             </div>

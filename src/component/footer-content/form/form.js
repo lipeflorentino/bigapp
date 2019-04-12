@@ -56,7 +56,7 @@ class MyForm extends React.Component {
         <div className="ft-form">
             <div className="row ft-pad">
                 <div className="ft-titulo">
-                    <h4>Conteudo</h4>
+                    <h4>Contato</h4>
                 </div>
                 <form onSubmit={this.handleSubmit} className="col s12">
                     <div className="row">

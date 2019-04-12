@@ -95,3 +95,20 @@ $black: #000000;
     font-weight:lighter;
     color:$black;
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .cc-slide{
+        padding:0 10%;
+    }    
+}
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    .cc-slide{
+        padding:0 4%;
+    }    
+}
+
+@media only screen and (max-width: 600px) {
+    .cc-slide{
+        padding:0 3%;
+    }    
+}
