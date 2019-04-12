@@ -64,12 +64,12 @@ $black: #000000;
 @media only screen and (max-width: 600px) {
     .content {
         padding: 27% 3% 3% 3%;
-        width:100%;
+        min-width:100%;
     }
     .client-content{
-        height:100vh;
+        min-height:100vh;
     }
     .footer-content{
-        height:100vh;
+        min-height:100vh;
     }
 }
