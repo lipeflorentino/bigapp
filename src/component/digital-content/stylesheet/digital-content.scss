@@ -22,6 +22,9 @@ $light-green: #5dba61;
         opacity:0.85;
         font-size:1.2rem;
     }
+    .row{
+        margin:0;
+    }
 }
 .dc-title-img img{
     width:60%;
@@ -282,7 +285,7 @@ $light-green: #5dba61;
         height: 400px;
         float: none;
         width: 100%;
-        margin-top: 25%;
+        margin-top: 0;
     }
     .dc-text {
         padding: 12px 5%;
@@ -307,14 +310,14 @@ $light-green: #5dba61;
         top: 0 !important;
     }
     .dc-titulo{
-        height: 100vh;
-        padding-top:40%;
+        min-height: 100vh;
+            padding: 10% 3%;
     }
     .header-content{
-        height: 100vh;
+        min-height: 100vh;
     }
     .digital-content{
-        height: 100vh;
+        min-height: 100vh;
     }
     
     

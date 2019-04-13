@@ -36,15 +36,7 @@ const FooterContent = () => (
                         <a href="/"><i className="fa fa-instagram"></i></a>
                         <a href="/"><i className="fa fa-linkedin"></i></a>
                     </div>
-                    <div className="ft-menu">
-                        <ul>
-                            <li className="toHome"><a href="/">Home</a></li>
-                            <li><a href="/solucoes-digitais">Soluções</a></li>
-                            <li><a href="/oficina-de-startups">Oficina</a></li>
-                            <li><a href="/sobre-a-big">Sobre</a></li>
-                            <li><a href="/projetos">Projetos</a></li>
-                        </ul>        
-                    </div>
+                    
                 </Col>
                 <Col m={3} s={12}>
                     <div className="ft-rect-other">
@@ -54,7 +46,19 @@ const FooterContent = () => (
                     </div>
                 </Col>
             </Row>
+            <div className="ft-menu-container">
+                <div className="ft-menu">
+                    <ul>
+                        <li className="toHome"><a href="/">Home</a></li>
+                        <li><a href="/solucoes-digitais">Soluções</a></li>
+                        <li><a href="/oficina-de-startups">Oficina</a></li>
+                        <li><a href="/sobre-a-big">Sobre</a></li>
+                        <li><a href="/projetos">Projetos</a></li>
+                    </ul>        
+                </div>
+            </div>
         </div>
+        
         <div className="ft-copyright">
             <p>Copyright@ 2019 BIG Soluções Digitais </p>
         </div>

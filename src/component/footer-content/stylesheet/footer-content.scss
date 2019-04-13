@@ -119,6 +119,10 @@ $green:#4CAF50;
         }
     }
 }
+.ft-menu-container{
+    position:relative;
+    height:10vh;
+}
 .ft-menu{
     bottom: 10px;
     width: 30%;
@@ -192,7 +196,7 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([reado
     }
     .ft-socials{
         min-height:100vh;
-        padding:6% 15%;
+        padding:6% 2%;
     }
     .ft-socials .ft-info-rect{
         text-align:center;
@@ -215,7 +219,7 @@ input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([reado
         height: 80px;
         left: 0;
         bottom: 10px;
-        padding: 0 5%;
+        padding: 8% 5% 0 5%;
     }
     
 }

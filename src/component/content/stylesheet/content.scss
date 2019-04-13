@@ -62,9 +62,13 @@ $black: #000000;
     }
 }
 @media only screen and (max-width: 600px) {
+    
     .content {
-        padding: 27% 3% 3% 3%;
+        padding: 13vh 3% 3% 3%;
         min-width:100%;
+    }
+    .header-content{
+        height:100vh;
     }
     .client-content{
         min-height:100vh;

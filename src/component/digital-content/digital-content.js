@@ -29,6 +29,7 @@ const DigitalContent = () => (
                         <a href="/" className="btn-class">Link Button</a>
                     </div>
                 </Col>
+                <div className="clearfix"></div>
             </Row>
         </div>
         <div className="digital-content content" id="toDigital">
