@@ -13,6 +13,8 @@ $light-green: #5dba61;
     min-height:200px;
     padding:3% 8%;
     background-color:$white;
+    opacity:0;
+    transition:1s;
     h2{
         color:$medium-blue;
         font-size:2rem;
@@ -25,6 +27,10 @@ $light-green: #5dba61;
     .row{
         margin:0;
     }
+}
+.dc-titulo-show{
+    opacity:1;
+    transition:1s;
 }
 .dc-title-img img{
     width:60%;
@@ -42,8 +48,8 @@ $light-green: #5dba61;
 .digital-background{
     background-size: cover;
     background-attachment: fixed;
-    left: 0;
     background-image: url(../../../img/background/bcgd1.jpg);
+    left: 0;
     width: 100%;
     height: 100%;
     opacity: 0.1;
@@ -51,12 +57,16 @@ $light-green: #5dba61;
     top: 0;
     z-index:2;
 }
+.digital-back1{background-image: url(../../../img/background/bcgd1.jpg);}
+.digital-back2{background-image: url(../../../img/background/bcgd1.jpg);}
+.digital-back3{background-image: url(../../../img/background/bcgd1.jpg);}
+.digital-back4{background-image: url(../../../img/background/bcgd1.jpg);}
 .dc-text{
     position: absolute;
     width: 100%;
     text-align: center;
     z-index: 3;
-    padding: 0 30%;
+    padding: 0 23%;
     opacity:0;
     transition:1s;
     top:20%;
@@ -117,8 +127,14 @@ $light-green: #5dba61;
     float: none;
     text-align: center;
     height: 450px;
-    margin-top: 10vh;
+    margin-top: 0;
     overflow: hidden;
+    opacity:0;
+    transition:1s;
+}
+.dc-container-show{
+    opacity:1;
+    transition:1s;
 }
 .dc-img-container{
     padding-top:8%;
@@ -285,7 +301,7 @@ $light-green: #5dba61;
         height: 400px;
         float: none;
         width: 100%;
-        margin-top: 0;
+        margin-top: 10vh;
     }
     .dc-text {
         padding: 12px 5%;

@@ -37,6 +37,12 @@ $green:#4CAF50;
 .ft-form{
     background-color: white;
     margin: 6% 16%;
+    opacity:0;
+    transition:1s;
+}
+.ft-form-show{
+    opacity:1;
+    transition:1s;
 }
 .ft-btn{
     padding:6%;

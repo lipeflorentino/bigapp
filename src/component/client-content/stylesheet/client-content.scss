@@ -23,10 +23,16 @@ $black: #000000;
     position: relative;
     height: 900px;
     padding:18% 0;
+    opacity:0;
+    transition:1s;
     h3{
        font-size:1.6em;
        font-style:italic;
     }
+}
+.cc-carousel-show{
+    opacity:1;
+    transition:1s;
 }
 .cc-slide{
     position: absolute;

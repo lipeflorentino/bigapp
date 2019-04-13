@@ -35,12 +35,16 @@ $(document).ready(function($){
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
         }
+        if(position > 250 && position <400){
+            $('.dc-titulo').addClass('dc-titulo-show');
+        }
         if(position > 750 && position <1400){
             $('.vNav').removeClass('vNav-cor2');
             $('.vNav').addClass('vNav-cor1');
             index=1;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
+            $('.dc-container').addClass('dc-container-show');
         }
         else if(position > 1401 && position < 2500){
             $('.vNav').removeClass('vNav-cor1');
@@ -49,16 +53,16 @@ $(document).ready(function($){
             index=2;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
-            if(position > 1750){
+            if(position > 1550){
                 $('#feature1').addClass('show-feature');    
             }
-            if(position > 1900){
+            if(position > 1700){
                 $('#feature2').addClass('show-feature');    
             }
-            if(position > 2000){
+            if(position > 1800){
                 $('#feature3').addClass('show-feature');    
             }
-            if(position > 2150){
+            if(position > 1950){
                 $('#feature4').addClass('show-feature');       
             }
         }
@@ -116,6 +120,7 @@ $(document).ready(function($){
             index=4;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
+            $('.cc-carousel').addClass('cc-carousel-show');
         }
         else if(position > 6561){
             $('.vNav').removeClass('vNav-cor2');
@@ -123,6 +128,7 @@ $(document).ready(function($){
             index=5;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
+            $('.ft-form').addClass('ft-form-show');
         }
     });
 });

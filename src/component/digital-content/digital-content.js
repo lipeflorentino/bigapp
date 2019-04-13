@@ -24,7 +24,7 @@ const DigitalContent = () => (
                 </Col>
                 <Col m={6} s={12}>
                     <div className="dc-title-text">
-                        <h2>NOSSAS SOLUÇÕES</h2>
+                        <h2>Nossas Soluções</h2>
                         <p>Texto para atrair a atenção do visitante para as soluções da empresa, falar sobre o padrão de qualidade e outras coisas que valorizem a empresa.</p>
                         <a href="/" className="btn-class">Link Button</a>
                     </div>
