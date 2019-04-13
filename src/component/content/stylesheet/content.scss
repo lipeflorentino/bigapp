@@ -12,11 +12,11 @@ $black: #000000;
 }
 .content{
     z-index:1;
-    padding: 8% 8% 1px 8%;
+    padding: 20vh 8% 1px 8%;
     position:relative;
 }
 .header-content{
-    min-height: 700px;
+    min-height: 100vh;
     background-image: linear-gradient(to bottom right, $darker-blue, $water-blue);
     text-align: center;
 }
@@ -24,12 +24,12 @@ $black: #000000;
     overflow: hidden;
     background-color:$medium-blue;
     background-image: linear-gradient(to bottom right, $darker-blue, $water-blue);
-    min-height: 700px;
+    min-height: 100vh;
     padding-top:5%;
 }
 .features-content{
     background-color:$white;
-    min-height: 700px;
+    min-height: 100vh;
 }
 .ebook-content{
     z-index:1;
@@ -37,19 +37,19 @@ $black: #000000;
     position:relative;
 }
 .empresa-content{
-    min-height: 700px;
+    min-height: 100vh;
     background-color:$white;
     padding-bottom: 13%;
 }
 .pilares-content{
-    min-height:700px;
+    min-height:100vh;
     background-color:$white;
     z-index:1;
     position:relative;
     padding: 8% 16%;
 }
 .client-content{
-    min-height: 700px;
+    min-height: 100vh;
     background-color:$white;
 }
 .footer-content{
