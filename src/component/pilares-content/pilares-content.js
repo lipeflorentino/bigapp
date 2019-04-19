@@ -21,7 +21,7 @@ const PilaresContent = () => (
                             <span><i className="fa fa-suitcase"></i></span>
                         </div>    
                         <h4>Tecnologia</h4>
-                        <p>Um breve texto explicando um pouco do que se trata o conteudo apresentado.</p>
+                        <p>Acreditamos na tecnologia como um agente de transformação, capaz de mudar a realidade.</p>
                     </div>
                     
                 </Col>
@@ -31,7 +31,7 @@ const PilaresContent = () => (
                             <span><i className="fa fa-trophy"></i></span>
                         </div> 
                         <h4>Pessoas</h4>
-                        <p>Um breve texto explicando um pouco do que se trata o conteudo apresentado.</p>
+                        <p>Tudo que vale a pena é feito por pessoas e para pessoas, essa ideia é fundamental para o nosso negócio.</p>
                     </div>
                 </Col>
                 <Col m={4} s={12}>
@@ -40,7 +40,7 @@ const PilaresContent = () => (
                             <span><i className="fa fa-rocket"></i></span>
                         </div> 
                         <h4>Gestão</h4>
-                        <p>Um breve texto explicando um pouco do que se trata o conteudo apresentado.</p>
+                        <p>Gestão se tornou parte fundamental das empresas do futuro, uma gestão conciente é indispensável.</p>
                     </div>
                 </Col>
             </Row>
@@ -51,7 +51,7 @@ const PilaresContent = () => (
                             <span><i className="fa fa-suitcase"></i></span>
                         </div>    
                         <h4>Negócios</h4>
-                        <p>Um breve texto explicando um pouco do que se trata o conteudo apresentado.</p>
+                        <p>Nosso principal foco é em negócios, pequenas empresas e empreendedores.</p>
                     </div>
                     
                 </Col>
@@ -60,8 +60,8 @@ const PilaresContent = () => (
                         <div className="p-losango">
                             <span><i className="fa fa-trophy"></i></span>
                         </div> 
-                        <h4>Marcas</h4>
-                        <p>Um breve texto explicando um pouco do que se trata o conteudo apresentado.</p>
+                        <h4>Ideias</h4>
+                        <p>Elas transformam o mundo, acreditamos nesse potencial e procuramos auxiliar na construção de novos caminhos.</p>
                     </div>
                 </Col>
                 <Col m={4} s={12}>
@@ -70,7 +70,7 @@ const PilaresContent = () => (
                             <span><i className="fa fa-rocket"></i></span>
                         </div> 
                         <h4>Propósito</h4>
-                        <p>Um breve texto explicando um pouco do que se trata o conteudo apresentado.</p>
+                        <p>Ser agentes de transformação é o que nos move é o nosso propósito.</p>
                     </div>
                 </Col>
             </Row>

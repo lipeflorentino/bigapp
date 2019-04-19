@@ -15,7 +15,7 @@ const FooterContent = () => (
         <div className="footer-content content" id="toFooter">
             <div className="ft-titulo">
                 <h3>Fale Conosco</h3>
-                <p>Aqui entra um texto para convencer o visitante a entrar em contato</p>
+                <p>Qualquer dúvida que tiver, teremos prazer em responder.</p>
             </div>    
             <MyForm></MyForm>
         </div>    

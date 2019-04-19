@@ -15,7 +15,7 @@ class MyForm extends React.Component {
     
     handleSubmit(event) {
         event.preventDefault();
-        console.log('A name was submitted: ');
+        console.log('A form was submitted: ');
         const data = new FormData(event.target);
         this.enviarEmail(event, data);
         
@@ -39,6 +39,7 @@ class MyForm extends React.Component {
           })
           .catch(err => {
           // trata se alguma das promises falhar
+          this.showError();
           console.error('Failed retrieving information', err);
         });
     }
@@ -48,7 +49,15 @@ class MyForm extends React.Component {
         // Add the "show" class to DIV
         x.className = "show";
         // After 3 seconds, remove the show class from DIV
-        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000);
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 7000);
+    }
+    showError(){
+        // Get the snackbar DIV
+        var x = document.getElementById("errorbar");
+        // Add the "show" class to DIV
+        x.className = "show";
+        // After 3 seconds, remove the show class from DIV
+        setTimeout(function(){ x.className = x.className.replace("show", ""); }, 7000);
     }
 
   render() {
@@ -89,6 +98,7 @@ class MyForm extends React.Component {
                 </form>
             </div>
             <div id="snackbar">Valeu! Já já entraremos em contato.</div>
+            <div id="errorbar">Ocorreu um erro durante o envio, por favor entre em contato em contato@big.com.br</div>
         </div>
     );
   }

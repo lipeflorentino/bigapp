@@ -19,6 +19,8 @@ $black: #000000;
     min-height: 100vh;
     background-image: linear-gradient(to bottom right, $darker-blue, $water-blue);
     text-align: center;
+    padding: 20vh 10% 1px 10%;
+    
 }
 .digital-content{
     overflow: hidden;
@@ -39,7 +41,7 @@ $black: #000000;
 .empresa-content{
     min-height: 100vh;
     background-color:$white;
-    padding-bottom: 13%;
+    padding:4% 8% 13% 8%;
 }
 .pilares-content{
     min-height:100vh;

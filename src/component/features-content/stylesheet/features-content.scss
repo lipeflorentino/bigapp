@@ -42,10 +42,11 @@ $light-green: #5dba61;
 .fc-features{
     float:left;
     width:40%;
-    margin:30px 20px;
+    padding:30px 20px;
     opacity: 0;
     transition: 1s;
     transform: translate(-50px);
+    clear:right;
     h3{
         font-size:22px;
         color:#37484e;

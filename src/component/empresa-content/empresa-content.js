@@ -19,48 +19,38 @@ const EmpresaContent = () => (
                 <div className="title-underline"></div>
             </div>
             <div className="emp-container">
-                <div className="emp-box">
-                    <Row>
-                        <Col m={6} s={12}>
+                <Row>
+                    <Col m={4} s={12}>
+                        <div className="emp-box">
                             <div id="emp-bus" className="emp-rect">
                                 <span><i className="fa fa-suitcase"></i><p>Business</p></span>
                             </div>
-                        </Col>
-                        <Col m={6} s={12}>
                             <div className="emp-text">
-                                <p><strong>A BIG</strong> aqui vai entrar um texto falando sobre a BIG Soluções Gigitais, com foco no propósito da empresa.</p>
+                                <p><strong>A BIG</strong> tem o foco total em ajudar no desenvolvimento de negócios bem sucedidos, essa é a nossa missão, o nosso propósito.</p>
                             </div>
-                        </Col>
-                    </Row>
-                </div>    
-                <div className="emp-box">
-                    <Row>
-                        <Col m={6} s={12}>
+                        </div>
+                    </Col>
+                    <Col m={4} s={12}>    
+                        <div className="emp-box">
                             <div id="emp-inteli" className="emp-rect">
                                 <span><i className="fa fa-trophy"></i><p>Intelligence</p></span>
                             </div>    
-                        </Col>  
-                        <Col m={6} s={12}>
                             <div className="emp-text">
-                                <p>O objetivo é se aproximar do cpossível cliente, fazê-lo entender a marca e motivá-lo a usar os nossos serviços.</p>
+                                <p>Procuramos nos aprimorar todos os dias, aprender mais e evoluir sempre, e somente com inteligência somos capazes de fazer mais e melhor.</p>
                             </div>    
-                        </Col> 
-                    </Row>
-                </div>    
-                <div className="emp-box">
-                    <Row>
-                        <Col m={6} s={12}>
+                        </div>    
+                    </Col>    
+                    <Col m={4} s={12}>    
+                        <div className="emp-box">
                             <div id="emp-great" className="emp-rect">
                                 <span><i className="fa fa-rocket"></i><p>Greatness</p></span>
                             </div>    
-                        </Col>  
-                        <Col m={6} s={12}>
                             <div className="emp-text">
-                                <p>Aqui vai entrar um texto falando sobre a BIG Soluções Gigitais, com foco no propósito da empresa.</p>
+                                <p>Nossos sonhos são grandes e maior ainda é a nossa vontade de realizá-los.</p>
                             </div>
-                        </Col> 
-                    </Row>
-                </div>    
+                        </div>    
+                    </Col>    
+                </Row>    
             </div>       
         </div>    
     </div>    

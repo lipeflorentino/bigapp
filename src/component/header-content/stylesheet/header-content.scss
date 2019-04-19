@@ -15,16 +15,20 @@ $light-white: #ffffff40;
     transition: 0.9s;
     z-index: 3;
     position: relative;
+    a{
+        font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    }
 }
 .header-title h1 {
-    font-size: 3.6rem;
+    font-size: 3.2rem;
     color: $white;
 }
 
 .header-title p{
-    line-height: 2.3rem;
+    line-height: 2.1rem;
     font-weight:400;
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     opacity: 0.75;
     margin-bottom:45px;
     color: $white;
