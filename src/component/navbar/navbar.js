@@ -7,6 +7,8 @@ import './stylesheet/navbar.scss';
 //Importando js files
 import "./javascript/click-to-navigate.js";
 import logo from '../../img/logo/big_logo_new_06.png';
+
+import { Link } from 'react-router-dom';
     
 const icon = (
   <span className="logo">
@@ -22,7 +24,7 @@ const Nav = () => (
       <NavItem href="/oficina-de-startups">OFICIA DE STARTUPS</NavItem>
       <NavItem href="/sobre-a-big">SOBRE</NavItem>
       <NavItem href="/projetos">PROJETOS</NavItem>
-      <NavItem href="/contato">CONTATO</NavItem>
+      <NavItem><Link to="/contato">Contato</Link></NavItem>
     </Navbar>  
 );
 

@@ -8,6 +8,7 @@ import './stylesheet/footer-content.scss';
 
 //importando componentes
 import MyForm from './form/form.js';
+import { Link } from 'react-router-dom';
 
 //Content
 const FooterContent = () => (
@@ -41,7 +42,7 @@ const FooterContent = () => (
                             <li className="toHome"><a href="/">Home</a></li>
                             <li><a href="/solucoes-digitais">Soluções</a></li>
                             <li><a href="/oficina-de-startups">Oficina</a></li>
-                            <li><a href="/sobre-a-big">Sobre</a></li>
+                            <li><Link to="/contato">Contato</Link></li>
                             <li><a href="/projetos">Projetos</a></li>
                         </ul>        
                     </div>
