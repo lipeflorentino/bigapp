@@ -6,25 +6,32 @@ $lighter-blue: #b1dcfb;
 $white: #FFFFFF;
 $black: #000000;
 
+.content-container{
+    position: relative;
+    overflow: hidden;
+}
 .content{
     z-index:1;
-    padding: 13% 8% 1px 8%;
+    padding: 20vh 8% 1px 8%;
     position:relative;
 }
 .header-content{
-    min-height: 700px;
+    min-height: 100vh;
     background-image: linear-gradient(to bottom right, $darker-blue, $water-blue);
+    text-align: center;
+    padding: 20vh 10% 1px 10%;
     
 }
 .digital-content{
     overflow: hidden;
     background-color:$medium-blue;
     background-image: linear-gradient(to bottom right, $darker-blue, $water-blue);
-    min-height: 700px;
+    min-height: 100vh;
+    padding-top:5%;
 }
 .features-content{
     background-color:$white;
-    min-height: 700px;
+    min-height: 100vh;
 }
 .ebook-content{
     z-index:1;
@@ -32,22 +39,43 @@ $black: #000000;
     position:relative;
 }
 .empresa-content{
-    min-height: 700px;
+    min-height: 100vh;
     background-color:$white;
-    padding-bottom: 13%;
+    padding:4% 8% 13% 8%;
 }
 .pilares-content{
-    min-height:700px;
+    min-height:100vh;
     background-color:$white;
     z-index:1;
     position:relative;
     padding: 8% 16%;
 }
 .client-content{
-    min-height: 700px;
+    min-height: 100vh;
     background-color:$white;
 }
 .footer-content{
     min-height: 700px;
     background-color:$black;
+}
+@media only screen and (max-width: 991px) {
+    .pilares-content{
+        padding:8%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    
+    .content {
+        padding: 13vh 3% 3% 3%;
+        min-width:100%;
+    }
+    .header-content{
+        height:100vh;
+    }
+    .client-content{
+        min-height:100vh;
+    }
+    .footer-content{
+        min-height:100vh;
+    }
 }

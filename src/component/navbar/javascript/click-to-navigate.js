@@ -12,7 +12,7 @@ $(document).ready(function() {
         return false;
     });
 
-    $('#toDigital').click(function() {
+    $('.toDigital').click(function() {
         $('html, body').animate({
             scrollTop: '1100px'
         }, 1500);

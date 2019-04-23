@@ -16,8 +16,8 @@ const FooterContent = () => (
         <div className="footer-content content" id="toFooter">
             <div className="ft-titulo">
                 <h3>Fale Conosco</h3>
-                <p>Aqui entra um texto para convencer o visitante a entrar em contato</p>
-            </div>
+                <p>Qualquer dúvida que tiver, teremos prazer em responder.</p>
+            </div>    
             <MyForm></MyForm>
         </div>    
         <div className="ft-socials">
@@ -55,7 +55,19 @@ const FooterContent = () => (
                     </div>
                 </Col>
             </Row>
+            <div className="ft-menu-container">
+                <div className="ft-menu">
+                    <ul>
+                        <li className="toHome"><a href="/">Home</a></li>
+                        <li><a href="/solucoes-digitais">Soluções</a></li>
+                        <li><a href="/oficina-de-startups">Oficina</a></li>
+                        <li><a href="/sobre-a-big">Sobre</a></li>
+                        <li><a href="/projetos">Projetos</a></li>
+                    </ul>        
+                </div>
+            </div>
         </div>
+        
         <div className="ft-copyright">
             <p>Copyright@ 2019 BIG Soluções Digitais </p>
         </div>

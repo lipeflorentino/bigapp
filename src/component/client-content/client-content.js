@@ -25,13 +25,13 @@ const ClientContent = () => (
                     <div className="slide-holder">
                         <div id="slide1" className="cc-slide slide-activate">
                             <div className="cc-img">
-                                <img src={img} title="" alt=""></img>
+                                <img src={img3} title="" alt=""></img>
                             </div>
                             <div className="cc-text">
                                 <i className="fa fa-quote-left"></i>
-                                <h4>O texto aqui é o depoimento de um outro cliente satisfeito, para aumentar o grau de confiabilidade da em,presa e atrair novos clientes.</h4>
+                                <h4>Fiquei muito satisfeita com o serviço, o atendimento foi ótimo, sempre mmuito atenciosos e no final o resultado foi até melhor do que eu esperava. Nota 1000!!!</h4>
                                 <i className="fa fa-quote-right"></i>
-                                <p>Nome e Sobrenome - cargo</p>
+                                <p>Márcia Lima</p>
                             </div>
                             <div id="btn-slide3"><i className="fa fa-chevron-circle-left"></i></div>
                             <div id="btn-slide2"><i className="fa fa-chevron-circle-right"></i></div>
@@ -42,9 +42,9 @@ const ClientContent = () => (
                             </div>
                             <div className="cc-text">
                                 <i className="fa fa-quote-left"></i>
-                                <h4>Aqui entra um texto de depoimento de um cliente satisfeito, para aumentar o grau de confiabilidade da em,presa e atrair novos clientes.</h4>
+                                <h4>Ficou acima da minha espectativa, a entrega foi dentro do prazo e a qualidade me surpreendeu já que o preço foi bem em conta.</h4>
                                 <i className="fa fa-quote-right"></i>
-                                <p>Nome e Sobrenome - cargo</p>
+                                <p>João Fernandez</p>
                             </div>
                             <div id="btn-slide1"><i className="fa fa-chevron-circle-left"></i></div>
                             <div id="btn-slide6"><i className="fa fa-chevron-circle-right"></i></div>
@@ -55,9 +55,9 @@ const ClientContent = () => (
                             </div>
                             <div className="cc-text">
                                 <i className="fa fa-quote-left"></i>
-                                <h4>Nesta parte entra o texto do cliente numero 3 o depoimento de um cliente satisfeito, para aumentar o grau de confiabilidade da em,presa e atrair novos clientes.</h4>
+                                <h4>A entrega foi bem rápida e toda semana havia uma parte do site pronta para que eu avaliasse, gostei batante do serviço e o preço coube no meu orçamento. Eu recomendo a empresa.</h4>
                                 <i className="fa fa-quote-right"></i>
-                                <p>Nome e Sobrenome - cargo</p>
+                                <p>Gabriela F. Nogueira</p>
                             </div>
                             <div id="btn-slide5"><i className="fa fa-chevron-circle-left"></i></div>
                             <div id="btn-slide4"><i className="fa fa-chevron-circle-right"></i></div>

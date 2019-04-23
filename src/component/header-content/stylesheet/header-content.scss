@@ -10,21 +10,24 @@ $light-green: #5dba61;
 $light-white: #ffffff40;
 
 .header-title{
-    padding: 0 12% 0 0;
-    opacity:0;
+    opacity: 0;
+    padding-top:10%;
     transition: 0.9s;
-    margin-right:40px;
-    z-index:3;
-    position:relative;
-    left:-60px;
+    z-index: 3;
+    position: relative;
+    a{
+        font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+    }
 }
 .header-title h1 {
-    font-size: 3.5rem;
+    font-size: 3.2rem;
     color: $white;
 }
 
 .header-title p{
-    line-height: 2.3rem;
+    line-height: 2.1rem;
+    font-weight:400;
     font-size: 1.6rem;
     opacity: 0.75;
     margin-bottom:45px;
@@ -56,18 +59,14 @@ $light-white: #ffffff40;
     background-color: $dark-blue;
 }
 .header-img{
-    margin-top:2.8rem;
-    padding-right: 8%;
-    position:relative;
-    z-index:3;
+    margin-top:1rem;
+    position: relative;
+    z-index: 3;
     img{
-        width: 130%;
-        position: absolute;
-        left: 40px;
-        top: 20px;
-        opacity:0;
+        margin-right:8%;
+        width: 50%;
+        opacity: 0;
         transition: 0.9s;
-        margin-right:40px;
         
     }
 }
@@ -98,15 +97,21 @@ $light-white: #ffffff40;
 }
 
 /* Animações do header */
-.anim1{opacity:1;margin-right: 0px;transition: 0.9s;left:0;}
-.anim2 img{opacity:1;margin-left: 0px;transition: 0.9s;left:-90px;}
+.anim1{opacity: 1;margin-right: 0px;transition: 0.9s;}
+.anim2 img{opacity: 1;margin-left: 0px;transition: 0.9s}
 
 /* Layout responsivo */
+
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+    .header-title{
+        padding-top:20%;
+    }
+}
 @media only screen and (max-width: 600px) {
     
     .header-title{
         text-align: center;
-        padding:4px;
+        padding: 0 4px;
     }
     .header-title h1 {
         font-size: 2.1rem;

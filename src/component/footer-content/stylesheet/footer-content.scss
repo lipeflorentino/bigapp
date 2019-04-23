@@ -19,14 +19,30 @@ $green:#4CAF50;
         color:$white;
         font-weight:700;
     }
+    h4{
+        font-size: 1.8rem;
+        text-align: left;
+        padding-left: 65px;
+        color:$medium-blue;
+    }
     p{
-        color:white;
+        color:$white;
         opacity:0.85;
         font-size:1em;
     }
 }
+.ft-pad{
+    padding: 6% 40px 0 0;
+}
 .ft-form{
-    padding:6% 16%;
+    background-color: white;
+    margin: 6% 16%;
+    opacity:0;
+    transition:1s;
+}
+.ft-form-show{
+    opacity:1;
+    transition:1s;
 }
 .ft-btn{
     padding:6%;
@@ -42,7 +58,7 @@ $green:#4CAF50;
     }
 }
 .input-field{
-    color:white;
+    color:black;
     .material-icons{
         padding-top: 12px;
         color:$white;
@@ -54,7 +70,7 @@ $green:#4CAF50;
 .ft-copyright{
     width:100%;
     height:80px;
-    padding:5px 16%;
+    padding:5px 0;
     text-align:center;
     color:$white;
     background-color:$black;
@@ -65,7 +81,7 @@ $green:#4CAF50;
 }
 .ft-socials{
     width:100%;
-    height:400px;
+    min-height:200px;
     padding:6%;
     background-color:$lighter-black;
     position:relative;
@@ -108,6 +124,10 @@ $green:#4CAF50;
             padding-left:40px;
         }
     }
+}
+.ft-menu-container{
+    position:relative;
+    height:10vh;
 }
 .ft-menu{
     bottom: 10px;
@@ -167,8 +187,46 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
 input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
     color:$medium-blue;
 }
-
-
-
-
+@media only screen and (min-width: 601px) and (max-width: 991px) {
+    .ft-menu {
+        bottom: 10px;
+        width: 100%;
+        position: relative;
+        height: 80px;
+        left:0;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .ft-form{
+        margin:6% 0;
+    }
+    .ft-socials{
+        min-height:100vh;
+        padding:6% 2%;
+    }
+    .ft-socials .ft-info-rect{
+        text-align:center;
+        p{
+            padding-left:0;
+        }
+    }
+    .ft-socials .ft-info-rect .fa{
+        float:none;
+    }
+    .ft-rect{
+        padding:30% 5%;
+    }
+    .ft-rect-other{
+        text-align:center;
+    }
+    .ft-menu {
+        width: 100%;
+        position: absolute;
+        height: 80px;
+        left: 0;
+        bottom: 10px;
+        padding: 8% 5% 0 5%;
+    }
+    
+}
 

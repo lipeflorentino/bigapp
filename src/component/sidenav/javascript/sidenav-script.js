@@ -23,14 +23,20 @@ $(document).ready(function($){
         var position = $(document).scrollTop(),
             index; 
             
-        if(position > 750){
+        if(position > 750 && position < 7480){
             $('.vNav').show();
         }
-        else if(position < 740){
+        else if(position > 7500){
+            $('.vNav').hide();
+        }
+        if(position < 740){
             $('.vNav').hide();
             index=0;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
+        }
+        if(position > 250 && position <400){
+            $('.dc-titulo').addClass('dc-titulo-show');
         }
         if(position > 750 && position <1400){
             $('.vNav').removeClass('vNav-cor2');
@@ -38,6 +44,7 @@ $(document).ready(function($){
             index=1;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
+            $('.dc-container').addClass('dc-container-show');
         }
         else if(position > 1401 && position < 2500){
             $('.vNav').removeClass('vNav-cor1');
@@ -46,16 +53,16 @@ $(document).ready(function($){
             index=2;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
-            if(position > 1750){
+            if(position > 1550){
                 $('#feature1').addClass('show-feature');    
             }
-            if(position > 1900){
+            if(position > 1700){
                 $('#feature2').addClass('show-feature');    
             }
-            if(position > 2000){
+            if(position > 1800){
                 $('#feature3').addClass('show-feature');    
             }
-            if(position > 2150){
+            if(position > 1950){
                 $('#feature4').addClass('show-feature');       
             }
         }
@@ -66,7 +73,7 @@ $(document).ready(function($){
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
         }
-        else if(position > 2951 && position < 4040){
+        else if(position > 2951 && position < 3640){
             $('.vNav').removeClass('vNav-cor1');
             $('.vNav').addClass('vNav-cor2');
             index=3;
@@ -82,28 +89,28 @@ $(document).ready(function($){
                 $('.emp-container .emp-box:nth-child(3)').addClass('emp-show');
             }
         }
-        else if(position > 4041 && position < 5470){
+        else if(position > 3641 && position < 5470){
             $('.vNav').removeClass('vNav-cor2');
             $('.vNav').addClass('vNav-cor1');
             index=3;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
-            if(position > 4220){
+            if(position > 3820){
                 $('#info-tecno').addClass('p-infos-show');
             }
-            if(position > 4400){
+            if(position > 4060){
                 $('#info-pessoas').addClass('p-infos-show');
             }
-            if(position > 4540){
+            if(position > 4220){
                 $('#info-gestao').addClass('p-infos-show');
             }
-            if(position > 4680){
+            if(position > 4460){
                 $('#info-negocios').addClass('p-infos-show');
             }
-            if(position > 4820){
+            if(position > 4620){
                 $('#info-marcas').addClass('p-infos-show');
             }
-            if(position > 4960){
+            if(position > 4760){
                 $('#info-proposito').addClass('p-infos-show');
             }
         }
@@ -113,6 +120,7 @@ $(document).ready(function($){
             index=4;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
+            $('.cc-carousel').addClass('cc-carousel-show');
         }
         else if(position > 6561){
             $('.vNav').removeClass('vNav-cor2');
@@ -120,6 +128,7 @@ $(document).ready(function($){
             index=5;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
+            $('.ft-form').addClass('ft-form-show');
         }
     });
 });

@@ -13,8 +13,21 @@ $light-green: #5dba61;
     padding: 4% 8% 20% 6%;
     z-index:3;
 }
-.features-content .dc-titulo{
+.fe-titulo{
     padding:0 8% 4% 8%;
+    text-align:center;
+    min-height:200px;
+    padding:3% 8%;
+    background-color:$white;
+    h2{
+        color:$medium-blue;
+        font-size:2rem;
+    }
+    p{
+        color:$black;
+        opacity:0.85;
+        font-size:1.2rem;
+    }
 }
 .features-content p{
     line-height: 2.1rem;
@@ -29,10 +42,11 @@ $light-green: #5dba61;
 .fc-features{
     float:left;
     width:40%;
-    margin:30px 20px;
+    padding:30px 20px;
     opacity: 0;
     transition: 1s;
     transform: translate(-50px);
+    clear:right;
     h3{
         font-size:22px;
         color:#37484e;
@@ -62,3 +76,90 @@ $light-green: #5dba61;
     }
 }
 .fc-show-img img{opacity:1;transition:1s;}
+
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .fc-img img {
+        top: 5vh;
+        width: 90%;
+        position: absolute;
+        left: -60px;
+        opacity: 0;
+        transition: 1s;
+    }
+    .fc-show-img img {
+        opacity: 1;
+        transition: 1s;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .fc-img img {
+        width: 100%;
+        position: relative;
+        left: -10px;
+        opacity: 0;
+        transition: 1s;
+        top: 14vh;
+    }
+    .fc-show-img img {
+        opacity: 1;
+        transition: 1s;
+    }
+    .fc-features {
+        float: left;
+        width: 35%;
+        margin: 24px 20px;
+        opacity: 0;
+        transition: 1s;
+        -webkit-transform: translate(-50px);
+        transform: translate(-50px);
+    }
+    .show-feature {
+        opacity: 1;
+        transition: .8s;
+        -webkit-transform: translate(0px);
+        transform: translate(0px);
+    }
+    .fc-features span i {
+        font-size: 4rem;
+    }
+    .fc-features h3 {
+        font-size: 20px;
+    }    
+}
+@media only screen and (max-width: 600px) {
+    .fc-features {
+        text-align: center;
+        float: none;
+        width: 100%;
+        margin: 0;
+        opacity: 0;
+        transition: 1s;
+        -webkit-transform: translate(-50px);
+        transform: translate(-50px);
+        padding: 5px;
+    }
+    .show-feature {
+        opacity: 1;
+        transition: .8s;
+        -webkit-transform: translate(0px);
+        transform: translate(0px);
+    }
+    .fc-img img {
+        bottom: -20px;
+        width: 100%;
+        position: relative;
+        left: -21px;
+        opacity: 0;
+        transition: 1s;
+    }
+    .fc-show-img img {
+        opacity: 1;
+        transition: 1s;
+    }
+    
+    .title-underline{
+        margin: auto;
+        width: 43px;
+    }
+}    
