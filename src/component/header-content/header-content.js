@@ -7,6 +7,9 @@ import './stylesheet/header-content.scss';
 // Importando img
 
 
+import { Link } from 'react-router-dom';
+
+
 //importando componentes
 
 //Content
@@ -17,9 +20,9 @@ const HeaderContent = () => (
             <Row>
                 <Col m={12} s={12}>
                     <div className="header-title">
-                        <h1>Criação de sites, sistemas e negócios digitais.</h1>
-                        <p>Ter um bom website, pode ser a diferença entre um negócio bem sucedido ou não e com nossos serviços otimizados, nunca foi tão acessível ter presença digital, então não fique de fora.</p>
-                        <a href="/" className="btn-class">FAÇA PARTE</a>
+                        <h1>Começe pequeno. Pense grande.</h1>
+                        <p>Criação de sites, sistemas e negócios digitais para pequenas empresas.</p>
+                        <Link to="/contato" onClick={window.scrollTo(0, 0)} className="btn-class">COMECE AGORA</Link>
                     </div>
                 </Col>
                 

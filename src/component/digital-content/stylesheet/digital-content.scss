@@ -83,6 +83,7 @@ $light-green: #5dba61;
 .dc-show{
     transition: 1s !important;
     opacity: 1 !important;
+    z-index:4;
 }
 .dc-img-show{
     transition: 2.3s !important;

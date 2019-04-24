@@ -5,6 +5,13 @@ $(document).ready(function() {
     $('.header-title').addClass('anim1');
     $('.header-img').addClass('anim2');
     
+    $('.btn-class').click(function() {
+        window.scrollTo(0, 0);
+    });
+    $('.btn-class-footer').click(function() {
+        window.scrollTo(0, 0);
+    });
+    
     $('.toHome').click(function() {
         $('html, body').animate({
             scrollTop: '0px'
