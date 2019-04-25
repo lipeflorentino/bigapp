@@ -9,8 +9,12 @@ $black: #000000;
 $lighter-black: #0c111e;
 $gray: #212133;
 $green:#4CAF50;
+$medium-black:#050505;
+$dark-gray:#b1bfcb;
 
-
+#ch-contato{
+    background-image: linear-gradient(to bottom right, $medium-black, $dark-gray);
+}
 .ch-header{
     position: relative;
     width: 100%;

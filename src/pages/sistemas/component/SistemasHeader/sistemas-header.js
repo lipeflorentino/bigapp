@@ -1,12 +1,12 @@
 // Importando o React
 import React from "react";
 // Importando css e scss
-import '../../../contato/component/ContatoHeader/stylesheet/contato-header.scss';
+import './stylesheet/sistemas-header.scss';
 
 const SistemasHeader = () => (
     
     <div>
-        <div className="ch-header">
+        <div id="ch-sistema" className="ch-header">
             <div className="ch-background"></div>
             <div className="ch-content">
                 <h1>Sistemas</h1>

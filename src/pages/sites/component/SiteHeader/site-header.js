@@ -6,7 +6,7 @@ import '../../../contato/component/ContatoHeader/stylesheet/contato-header.scss'
 const SiteHeader = () => (
     
     <div>
-        <div className="ch-header">
+        <div id="ch-site" className="ch-header">
             <div className="ch-background"></div>
             <div className="ch-content">
                 <h1>Sites</h1>

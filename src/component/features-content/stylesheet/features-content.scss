@@ -12,6 +12,8 @@ $light-green: #5dba61;
     position:relative;
     padding: 4% 8% 20% 6%;
     z-index:3;
+    overflow: hidden;
+    height:180vh;
 }
 .fe-titulo{
     padding:0 8% 4% 8%;
@@ -40,18 +42,22 @@ $light-green: #5dba61;
     position:relative;
 }
 .fc-features{
-    float:left;
-    width:40%;
-    padding:30px 20px;
+    height: 300px;
+    float: left;
+    width: 35%;
+    margin: 30px 10px;
     opacity: 0;
     transition: 1s;
+    -webkit-transform: translate(-50px);
     transform: translate(-50px);
-    clear:right;
+    clear: right;
+    padding: 3%;
     h3{
-        font-size:22px;
+        font-size:20px;
         color:#37484e;
     }
     p{
+        font-size:18px;
         color:#5d6c71;
     }
     span i{
@@ -68,11 +74,13 @@ $light-green: #5dba61;
 .fc-img{
     position:relative;
     img{
-        width: 110%;
+        top: 110px;
+        width: 170%;
         position: absolute;
-        left: -85px;
+        left: -250px;
         opacity: 0;
         transition: 1s;
+        z-index: -1;
     }
 }
 .fc-show-img img{opacity:1;transition:1s;}

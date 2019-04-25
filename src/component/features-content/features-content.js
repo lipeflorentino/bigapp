@@ -22,24 +22,24 @@ const FeaturesContent = () => (
                     <div className="fc-box">
                         <div id="feature1" className="fc-features">
                             <span><i className="fa fa-at"></i></span>
-                            <h3>Era Digital</h3>
+                            <h3>Conectado</h3>
                             <p>O mundo está cada vez mais digital, presença online através de <strong>sites</strong> ou <strong>sistemas</strong> é um diferencial competitivo.</p>
                         </div>
                         <div id="feature2" className="fc-features">
                             <span><i className="fa fa-bar-chart"></i></span>
-                            <h3>Mais Clientes</h3>
+                            <h3>Clientes</h3>
                             <p>Esteja online e veja cada vez mais potenciais clientes chegarem até você.</p>
                         </div>
                         <div className="clearfix"></div>
                         <div id="feature3" className="fc-features">
                             <span><i className="fa fa-cloud"></i></span>
-                            <h3>Na Nuvem</h3>
+                            <h3>Nuvem</h3>
                             <p>Com recursos na nuvem você não tem dor de cabeça com infra-estrutura ou segurança.</p>
                         </div>
                         <div id="feature4" className="fc-features">
                             <span><i className="fa fa-code"></i></span>
                             <h3>Tecnologia</h3>
-                            <p>Cada dia surgem novas tecnologias, ainda mais robustas deixando tecnologias antigas obsoletas. Se renovar é essencial.</p>
+                            <p>Cada dia surgem novas tecnologias, se atualizar é essencial.</p>
                         </div>
                     </div>
                 </Col>

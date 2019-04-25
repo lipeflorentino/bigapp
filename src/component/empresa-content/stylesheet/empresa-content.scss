@@ -75,6 +75,15 @@ $black: #000000;
         margin:0;
     }
 }
+@media only screen and (min-width: 1023px) {
+    .emp-box{
+        padding: 2% 13%;
+        opacity:0;
+        transition:.8s;
+        
+        height:380px;
+    }
+}
 @media only screen and (min-width: 601px) and (max-width: 1023px) {
     .emp-rect {
         float: none;
