@@ -1,0 +1,34 @@
+$darker-blue: #054381;
+$medium-blue: #0080ff;
+$dark-blue: #2699FB;
+$water-blue: #BCE0FD;
+$lighter-blue: #b1dcfb;
+$white: #FFFFFF;
+$dark-white: #fafafa;
+$black: #000000;
+$lighter-black: #0c111e;
+$gray: #212133;
+$green:#4CAF50;
+$medium-black:#050505;
+$dark-gray:#b1bfcb;
+
+
+.s-container-black{
+    overflow:hidden;
+    h2{
+        color:$black;
+    }
+    .ft-form{
+        opacity:1;
+        text-align:left;
+    }
+    .ft-titulo{
+        display:none;
+    }
+}
+
+.s-content-black{
+    h2{
+        color:$black;
+    }
+}

@@ -1,0 +1,33 @@
+$dark-purple:#6b2796;
+$light-purple:#aa6dd1;
+
+.s-container-purple{
+    h2{
+        color:$dark-purple;
+    }
+}
+.s-content-purple{
+    h2{
+        color:$dark-purple;
+    }
+}
+.s-infos-text-purple{
+    h3{
+        color:$dark-purple;
+    }
+}
+.s-prices-rect-purple{
+    h3{
+        color:$dark-purple;
+    }
+    h4{
+        color:$dark-purple;
+    }
+}
+
+.s-active-purple:hover{
+    border-top-color:$dark-purple;
+    border-top-width: 3px !important;
+    border-bottom-color:$dark-purple;
+    border-bottom-width: 3px !important;
+}

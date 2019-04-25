@@ -1,12 +1,116 @@
 // Importando o React
 import React from "react";
 
+// Importando os components necessários da lib react-materialize
+import { Row, Col} from 'react-materialize';
+
+// Importando css
+import './stylesheet/sistemas-container.scss';
+import '../../../sites/component/SiteContainer/stylesheet/site-container.scss';
+
+import { Link } from 'react-router-dom';
+
+import img from './img/sistema3.jpg';
+import img4 from './img/sistema2.jpg';
+import img3 from './img/sistema.png';
+
 const SistemasContainer = () => (
     
     <div>
-        <div className="cs-content">
-            <p>Desenvolvemos sistemas para pequenas empresa.</p>
+        <div className="s-container s-container-purple">
+            <h2>As melhores soluções em <strong>sistemas</strong> que cabem no seu bolso. Nunca foi tão fácil ter presença digital.</h2>
+            <div className="s-infos-rect">
+                <div className="s-infos">
+                    <Row>
+                        <Col m={6} s={12}>
+                            <div className="s-infos-img">
+                                <img src={img} title="" alt=""></img>
+                            </div>
+                        </Col>
+                        <Col m={6} s={12}>
+                            <div className="s-infos-text s-infos-text-purple">
+                                <h3>Sistemas com tecnologia <i>Cloud</i></h3>
+                                <p>texto falando sobre o beneficio citado na imagem ao lado. Esse texto irá transmitir a mensagem segundo o título acima, para que justifique o uso do texto.</p>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>    
+                <div className="s-infos">
+                    <Row>
+                        <Col m={6} s={12}>
+                            <div className="s-infos-text s-infos-text-purple">
+                                <h3>Sistemas de fácil gerenciamento</h3>
+                                <p>texto falando sobre o beneficio citado na imagem ao lado. Esse texto irá transmitir a mensagem segundo o título acima, para que justifique o uso do texto.</p>
+                            </div>
+                        </Col>
+                        <Col m={6} s={12}>
+                            <div className="s-infos-img">
+                                <img src={img4} title="" alt=""></img>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+                <div className="s-infos">
+                    <Row>
+                        <Col m={6} s={12}>
+                            <div className="s-infos-img">
+                                <img src={img3} title="" alt=""></img>
+                            </div>
+                        </Col>
+                        <Col m={6} s={12}>
+                            <div className="s-infos-text s-infos-text-purple">
+                                <h3>Sistemas personalizados</h3>
+                                <p>texto falando sobre o beneficio citado na imagem ao lado. Esse texto irá transmitir a mensagem segundo o título acima, para que justifique o uso do texto.</p>
+                            </div>
+                        </Col>
+                    </Row>
+                </div>
+            </div>
+            <div className="s-call">
+                <p><strong>Não adie mais, comece agora mesmo!</strong></p>
+                <Link to="/contato" onClick={window.scrollTo(0, 0)} className="btn-class">SAIBA COMO</Link>
+            </div>    
         </div>
+        <div className="s-content s-content-purple">
+            <h2>Preços</h2>
+            <p> Algumas de nossas soluções de <strong>sistemas</strong>, escolha a que melhor cabe no seu bolso.</p>
+            <div className="s-prices">
+                <Row>
+                    <Col m={6} s={12}>
+                        <div className="s-prices-rect s-prices-rect-purple s-active-purple">
+                            <h3>Básico</h3>
+                            <h4>R$ 800*</h4>
+                            <ul>
+                                <li>Layout pré-definido</li>
+                                <li>Design multiplataforma</li>
+                                <li>Otimizado</li>
+                                <li>Cloud Storage</li>
+                                <li>1 nível de acesso</li>
+                                <li>30 dias de manutenção grátis</li>
+                                <li></li>
+                            </ul>   
+                            <Link to="/contato" onClick={window.scrollTo(0, 0)} className="btn-class">CONTRATE AGORA</Link>
+                        </div>
+                    </Col>
+                    <Col m={6} s={12}>
+                        <div className="s-prices-rect s-prices-rect-purple s-active-purple">
+                            <h3>Customizado</h3>
+                            <h4>R$ 2000*</h4>
+                            <ul>
+                                <li>Layout personalizado</li>
+                                <li>Design multiplataforma</li>
+                                <li>Otimizado</li>
+                                <li>Cloud Storage</li>
+                                <li>Até 3 níveis de acesso</li>
+                                <li>30 dias de manutenção grátis</li>
+                            </ul>   
+                            <Link to="/contato" onClick={window.scrollTo(0, 0)} className="btn-class">CONTRATE AGORA</Link>
+                        </div>
+                    </Col>
+                </Row>
+            </div>
+            <p>*a partir de</p>
+         </div>
     </div>
     
     

@@ -9,17 +9,55 @@ $green: #4CAF50;
 $light-green: #5dba61;
 $light-white: #ffffff40;
 
+
+.s-container{
+    padding:6% 12%;
+    min-height:100vh;
+    text-align:center;
+    background-color:$white;
+    h2{
+        padding:0 8%;
+        font-size:2rem;
+        font-weight:300;
+        line-height:2.5rem;
+        color:$medium-blue;
+    }
+}
 .s-content{
     padding:6% 12%;
     width:100%;
     min-height:150vh;
-    background-color:white;
+    background-color:#f5f5f5;
     text-align:center;
     h2{
         color:$medium-blue;
     }
     p{
         font-size:20px;
+    }
+}
+.s-infos-rect{
+    padding: 0;
+}
+.s-infos{
+    margin:10% 0;
+}
+.s-infos-img{
+    position:relative;
+    width:100%;
+    img{
+        position:relative;
+        width:90%;
+        padding-top:5%;
+    }    
+}
+.s-infos-text{
+    text-align:left;
+    padding:10% 0;
+    h3{
+        color:$medium-blue;
+        font-size:2rem;
+        font-weight:500;
     }
 }
 .s-prices{
@@ -32,6 +70,8 @@ $light-white: #ffffff40;
     border-radius:6px;
     border:2px solid #f5f5f5;
     text-align:center;
+    background-color:$white;
+    box-shadow:3px 2px 2px lightgray;
     h3{
         font-size:2rem;
         color:$medium-blue;
@@ -55,6 +95,6 @@ $light-white: #ffffff40;
 .s-active:hover{
     border-top-color:$medium-blue;
     border-top-width: 3px !important;
-    box-shadow:3px 2px 2px lightgray;
-    
+    border-bottom-color:$medium-blue;
+    border-bottom-width: 3px !important;
 }
