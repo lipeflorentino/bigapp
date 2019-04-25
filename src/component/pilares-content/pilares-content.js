@@ -40,7 +40,7 @@ const PilaresContent = () => (
                             <span><i className="fa fa-rocket"></i></span>
                         </div> 
                         <h4>Gestão</h4>
-                        <p>Gestão se tornou parte fundamental das empresas do futuro, uma gestão conciente é indispensável.</p>
+                        <p>Gestão se tornou parte fundamental das empresas do futuro, uma gestão consciente é indispensável.</p>
                     </div>
                 </Col>
             </Row>

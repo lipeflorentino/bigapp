@@ -1,0 +1,60 @@
+$darker-blue: #054381;
+$medium-blue: #0080ff;
+$dark-blue: #2699FB;
+$water-blue: #BCE0FD;
+$lighter-blue: #b1dcfb;
+$white: #FFFFFF;
+$black: #000000;
+$green: #4CAF50;
+$light-green: #5dba61;
+$light-white: #ffffff40;
+
+.s-content{
+    padding:6% 12%;
+    width:100%;
+    min-height:150vh;
+    background-color:white;
+    text-align:center;
+    h2{
+        color:$medium-blue;
+    }
+    p{
+        font-size:20px;
+    }
+}
+.s-prices{
+    position:relative;
+}
+.s-prices-rect{
+    width:100%;
+    height:100%;
+    padding:8% 4%;
+    border-radius:6px;
+    border:2px solid #f5f5f5;
+    text-align:center;
+    h3{
+        font-size:2rem;
+        color:$medium-blue;
+    }
+    h4{
+        font-size:3rem;
+        color: $medium-blue;
+    }
+    li{
+        line-height:4rem;
+        font-size:19px;
+        font-weight:500px;
+        color:gray;
+    }
+    .btn-class{
+        margin-top:60px;
+        border-radius:4px;
+    }
+    
+}
+.s-active:hover{
+    border-top-color:$medium-blue;
+    border-top-width: 3px !important;
+    box-shadow:3px 2px 2px lightgray;
+    
+}
