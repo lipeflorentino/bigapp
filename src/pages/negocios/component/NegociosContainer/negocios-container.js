@@ -9,8 +9,6 @@ import '../../../sites/component/SiteContainer/stylesheet/site-container.scss';
 
 import { Link } from 'react-router-dom';
 
-import img from './img/ideias2.png';
-
 
 const NegociosContainer = () => (
     
@@ -19,7 +17,7 @@ const NegociosContainer = () => (
             <h2>Tem uma <strong>ideia inovadora</strong>? Ou mesmo uma ideia maluca. Nunca foi tão fácil tirá-las do papel.</h2>
             <div className="n-content">
                 <Row>
-                    <Col m={8} s={12}>
+                    <Col m={12} s={12}>
                         <div className="n-infos">
                             <div className="n-infos-rect">
                                 <div className="n-infos-count">
@@ -55,13 +53,6 @@ const NegociosContainer = () => (
                                     <h3>Desenvolvimento do Produto</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem</p>
                                 </div>
-                            </div>
-                        </div>
-                    </Col>
-                    <Col m={4} s={12}>
-                        <div className="n-infos">
-                            <div className="n-infos-img">
-                                <img src={img} title="" alt=""></img>
                             </div>
                         </div>
                     </Col>

@@ -21,14 +21,14 @@ const SiteContainer = () => (
                 <div className="s-infos">
                     <Row>
                         <Col m={6} s={12}>
-                            <div className="s-infos-img">
+                            <div className="s-infos-img s-infos-img-top">
                                 <img src={img} title="" alt=""></img>
                             </div>
                         </Col>
                         <Col m={6} s={12}>
                             <div className="s-infos-text">
-                                <h3>Sites com layout <i>User Friendly</i></h3>
-                                <p>texto falando sobre o beneficio citado na imagem ao lado. Esse texto irá transmitir a mensagem segundo o título acima, para que justifique o uso do texto.</p>
+                                <h3>Sites com interface <i>User Friendly</i></h3>
+                                <p>Sabemos a importância da experiência do usuário, por isso nossos <strong>websites</strong> possuem características <strong><i>User Friendly</i></strong> como carregamento rápido, navegação fluída, acessibilidade, entre outras.</p>
                             </div>
                         </Col>
                     </Row>
@@ -45,12 +45,12 @@ const SiteContainer = () => (
                         <Col m={6} s={12}>
                             <div className="s-infos-text">
                                 <h3>Sites com design responsivo</h3>
-                                <p>texto falando sobre o beneficio citado na imagem ao lado. Esse texto irá transmitir a mensagem segundo o título acima, para que justifique o uso do texto.</p>
+                                <p>Com o crescimento do mercado dos dispositivos móveis como tablets e celulares, se tornou essencial que os <strong>websites</strong> se adaptem aos diferentes tipos de dispositivos e tamanhos de telas.</p>
                             </div>
                         </Col>
                         <MediaQuery query="(min-device-width: 601px)">
                             <Col m={6} s={12}>
-                                <div className="s-infos-img s-img-desktop">
+                                <div className="s-infos-img s-infos-img-middle">
                                     <img src={img4} title="" alt=""></img>
                                 </div>
                             </Col>
@@ -60,14 +60,14 @@ const SiteContainer = () => (
                 <div className="s-infos">
                     <Row>
                         <Col m={6} s={12}>
-                            <div className="s-infos-img">
+                            <div className="s-infos-img s-infos-img-bottom">
                                 <img src={img3} title="" alt=""></img>
                             </div>
                         </Col>
                         <Col m={6} s={12}>
                             <div className="s-infos-text">
                                 <h3>Sites otimizados (SEO)</h3>
-                                <p>texto falando sobre o beneficio citado na imagem ao lado. Esse texto irá transmitir a mensagem segundo o título acima, para que justifique o uso do texto.</p>
+                                <p><strong>SEO</strong> ou <i>otimização para motores de busca</i> é um termo indispensável quando se fala em <strong>sites</strong>. Pois as técnicas usadas ajudam as suas páginas a se destacarem entre muitas outras, tornando o <strong>website</strong> da sua empresa mais visível nos mecanismos de busca como o <i>Google</i>.</p>
                             </div>
                         </Col>
                     </Row>

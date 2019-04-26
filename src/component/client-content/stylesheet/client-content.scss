@@ -41,7 +41,7 @@ $black: #000000;
     left: 0px;
     padding: 0 25%;
     opacity:0;
-    transition:1.4s;
+    transition:0.8s;
     .fa{
         color: $medium-blue;
         font-size: 4em;    
@@ -53,7 +53,7 @@ $black: #000000;
 }
 .slide-activate{
     opacity:1;
-    transition:1.4s;
+    transition:0.8s;
     z-index:5;
 }
 .cc-text{

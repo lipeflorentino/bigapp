@@ -5,9 +5,9 @@ import React from "react";
 // Importando css e scss
 import './stylesheet/client-content.scss';
 // Importando img
-import img from './img/cliente1.png';
-import img2 from './img/cliente2.png';
-import img3 from './img/cliente3.png';
+import img from './img/cliente1.jpg';
+import img2 from './img/cliente2.jpg';
+import img3 from './img/cliente3.jpg';
 // Importando o js
 import './javascript/carousel-activate.js';
 //importando componentes
@@ -25,7 +25,7 @@ const ClientContent = () => (
                     <div className="slide-holder">
                         <div id="slide1" className="cc-slide slide-activate">
                             <div className="cc-img">
-                                <img src={img3} title="" alt=""></img>
+                                <img src={img} title="" alt=""></img>
                             </div>
                             <div className="cc-text">
                                 <i className="fa fa-quote-left"></i>
@@ -38,7 +38,7 @@ const ClientContent = () => (
                         </div>
                         <div id="slide2" className="cc-slide">
                             <div className="cc-img">
-                                <img src={img2} title="" alt=""></img>
+                                <img src={img3} title="" alt=""></img>
                             </div>
                             <div className="cc-text">
                                 <i className="fa fa-quote-left"></i>
@@ -51,7 +51,7 @@ const ClientContent = () => (
                         </div>
                         <div id="slide3" className="cc-slide">
                             <div className="cc-img">
-                                <img src={img3} title="" alt=""></img>
+                                <img src={img2} title="" alt=""></img>
                             </div>
                             <div className="cc-text">
                                 <i className="fa fa-quote-left"></i>

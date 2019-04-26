@@ -24,14 +24,14 @@ const SistemasContainer = () => (
                 <div className="s-infos">
                     <Row>
                         <Col m={6} s={12}>
-                            <div className="s-infos-img">
+                            <div className="s-infos-img st-infos-img-top">
                                 <img src={img} title="" alt=""></img>
                             </div>
                         </Col>
                         <Col m={6} s={12}>
                             <div className="s-infos-text s-infos-text-purple">
-                                <h3>Sistemas com tecnologia <i>Cloud</i></h3>
-                                <p>texto falando sobre o beneficio citado na imagem ao lado. Esse texto irá transmitir a mensagem segundo o título acima, para que justifique o uso do texto.</p>
+                                <h3>Sistemas web com tecnologia <i>Cloud</i></h3>
+                                <p>Não tenha dor de cabeça com infra-estrutura e equipamentos, armazenamos o seu <strong>sistema</strong> na <i>nuvem</i>, garantindo que ele esteja sempre seguro e funcionando.</p>
                             </div>
                         </Col>
                     </Row>
@@ -48,12 +48,12 @@ const SistemasContainer = () => (
                         <Col m={6} s={12}>
                             <div className="s-infos-text s-infos-text-purple">
                                 <h3>Sistemas de fácil gerenciamento</h3>
-                                <p>texto falando sobre o beneficio citado na imagem ao lado. Esse texto irá transmitir a mensagem segundo o título acima, para que justifique o uso do texto.</p>
+                                <p>Nossos <strong>sistemas web</strong> são projetados para serem de fácil <i>usabilidade</i>, com paineis de controle e acesso <i>intuitivos</i>. Além do manual de uso ainda oferecemos treinamento para o uso do <strong>software</strong>.</p>
                             </div>
                         </Col>
                         <MediaQuery query="(min-device-width: 601px)">
                             <Col m={6} s={12}>
-                                <div className="s-infos-img">
+                                <div className="s-infos-img st-infos-img-middle">
                                     <img src={img4} title="" alt=""></img>
                                 </div>
                             </Col>
@@ -63,14 +63,14 @@ const SistemasContainer = () => (
                 <div className="s-infos">
                     <Row>
                         <Col m={6} s={12}>
-                            <div className="s-infos-img">
+                            <div className="s-infos-img st-infos-img-bottom">
                                 <img src={img3} title="" alt=""></img>
                             </div>
                         </Col>
                         <Col m={6} s={12}>
                             <div className="s-infos-text s-infos-text-purple">
                                 <h3>Sistemas personalizados</h3>
-                                <p>texto falando sobre o beneficio citado na imagem ao lado. Esse texto irá transmitir a mensagem segundo o título acima, para que justifique o uso do texto.</p>
+                                <p>Oferecemos soluções de <strong>sistemas web</strong> personalizados, com o objetivo de atender exatamente a necessidade do seu negócio.</p>
                             </div>
                         </Col>
                     </Row>

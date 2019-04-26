@@ -46,9 +46,29 @@ $light-white: #ffffff40;
     position:relative;
     width:100%;
     img{
-        position:relative;
-        width:90%;
-        padding-top:5%;
+        
+    }    
+}
+.s-infos-img-top{
+    img{
+        position:absolute;
+        left: 6px;
+    }
+}
+.s-infos-img-middle{
+    img{
+        position: absolute;
+        left: 30px;
+        width: 110%;
+        top: 50px;
+    }
+}
+.s-infos-img-bottom{
+    img{
+        position: absolute;
+        width: 95%;
+        left: -76px;
+        top: 30px;
     }    
 }
 .s-img-mobile{

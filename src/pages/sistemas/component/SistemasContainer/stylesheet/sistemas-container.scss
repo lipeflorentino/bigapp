@@ -31,3 +31,26 @@ $light-purple:#aa6dd1;
     border-bottom-color:$dark-purple;
     border-bottom-width: 3px !important;
 }
+.st-infos-img-top{
+    img{
+        position: absolute;
+        left: 0;
+        width: 100%;
+    }
+}
+.st-infos-img-middle{
+    img{
+        position: absolute;
+        left: 30px;
+        width: 100%;
+        top: 20px;
+    }
+}
+.st-infos-img-bottom{
+    img{
+        position: absolute;
+        width: 100%;
+        left: -75px;
+        top: 20px;
+    }    
+}
