@@ -127,9 +127,8 @@ $light-green: #5dba61;
     width: 100%;
     float: none;
     text-align: center;
-    height: 450px;
+    height: 100%x;
     margin-top: 0;
-    overflow: hidden;
     opacity:0;
     transition:1s;
 }
@@ -192,12 +191,24 @@ $light-green: #5dba61;
     transition:0.6s;
     opacity:0;
 }
+@media only screen and (min-width: 1024px) {
+    .dc-text{
+        padding-top:8%;
+    }
+}
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .dc-title-img img {
         width: 95%;
     }
     .dc-text{
         padding:0 20%;
+        padding-top:10px;
+        h3{
+            font-size:2.3rem;
+        }
+        p{
+            font-size:1.3rem;
+        }
     }
 }
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -275,7 +286,7 @@ $light-green: #5dba61;
             text-align: center;
             position: relative;
             height: 50px;
-            margin: 15% 0 40px 0;
+            margin: 15% 0 0px 0;
             left: 0;
             z-index: 4;
             width: 100%;
@@ -302,10 +313,10 @@ $light-green: #5dba61;
         height: 400px;
         float: none;
         width: 100%;
-        margin-top: 10vh;
+        margin-top: 0;
     }
     .dc-text {
-        padding: 12px 5%;
+        padding: 12px 1%;
         left: 110%;
         position: absolute;
         width: 100%;
@@ -313,10 +324,10 @@ $light-green: #5dba61;
         z-index: 3;
         top: 0;
         h3{
-            font-size:2.8rem;
+            font-size:2.2rem;
         }
         p{
-            font-size:1.5rem;
+            font-size:1.1rem;
         }
     }
     .dc-show {
@@ -336,7 +347,9 @@ $light-green: #5dba61;
     .digital-content{
         min-height: 100vh;
     }
-    
+    .dc-content{
+        padding-top:0;
+    }
     
 }
 

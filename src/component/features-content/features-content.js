@@ -48,6 +48,7 @@ const FeaturesContent = () => (
                         <img src={img} title="" alt=""></img>
                     </div>
                 </Col>
+                <div className="clearfix"></div>
             </Row>
         </div>    
     </div>    

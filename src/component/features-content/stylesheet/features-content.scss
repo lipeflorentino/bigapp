@@ -88,16 +88,29 @@ $light-green: #5dba61;
 
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
     .fc-img img {
-        top: 5vh;
-        width: 90%;
         position: absolute;
-        left: -60px;
         opacity: 0;
         transition: 1s;
+        top: 50vh;
+        width: 200%;
+        left: -200px;
     }
     .fc-show-img img {
         opacity: 1;
         transition: 1s;
+    }
+    .features-content{
+        height:200vh;
+    }
+    .fc-features{
+        padding: 0;
+        margin:10px;
+        h3{
+            font-size:1.4rem;
+        }
+        p{
+            font-size:1rem;
+        }
     }
 }
 @media only screen and (min-width: 601px) and (max-width: 768px) {
@@ -137,7 +150,8 @@ $light-green: #5dba61;
 }
 @media only screen and (max-width: 600px) {
     .features-content{
-        height:200vh;
+        height:280vh;
+        padding:12% 4% 0 4%;
     }
     .fc-features {
         text-align: center;

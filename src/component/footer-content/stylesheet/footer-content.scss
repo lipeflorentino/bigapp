@@ -187,6 +187,13 @@ input:not([type]):focus:not([readonly]), input[type=text]:focus:not([readonly]),
 input:not([type]):focus:not([readonly])+label, input[type=text]:focus:not([readonly])+label, input[type=password]:focus:not([readonly])+label, input[type=email]:focus:not([readonly])+label, input[type=url]:focus:not([readonly])+label, input[type=time]:focus:not([readonly])+label, input[type=date]:focus:not([readonly])+label, input[type=datetime]:focus:not([readonly])+label, input[type=datetime-local]:focus:not([readonly])+label, input[type=tel]:focus:not([readonly])+label, input[type=number]:focus:not([readonly])+label, input[type=search]:focus:not([readonly])+label, textarea.materialize-textarea:focus:not([readonly])+label{
     color:$medium-blue;
 }
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .ft-menu-container{
+        padding:0 24%;
+    }
+}
 @media only screen and (min-width: 601px) and (max-width: 991px) {
     .ft-menu {
         bottom: 10px;

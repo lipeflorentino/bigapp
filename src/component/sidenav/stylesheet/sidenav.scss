@@ -81,6 +81,11 @@ $white: #FFFFFF;
     opacity:0;
 }
 
+@media only screen and (min-width: 768) and (max-width: 1024px) {
+    .vNav{
+        left:87%;
+    }
+}
 @media only screen and (max-width: 768px) {
     .vNav{
         display:none !important;

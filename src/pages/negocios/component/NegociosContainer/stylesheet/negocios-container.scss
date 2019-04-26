@@ -27,10 +27,10 @@ $dark-green:#4caf50;
     position:relative;
     width:100%;
     img{
-        position:absolute;
-        width:80%;
-        left:90px;
-        top:100px;
+        position: absolute;
+        width: 120%;
+        left: 20px;
+        top: 45px;
     }    
 }
 .n-infos-rect{
@@ -117,6 +117,9 @@ $dark-green:#4caf50;
     .n-content {
         padding: 10vh 0 0 0;
         width: 100%;
+    }
+    .n-line{
+        display:none;
     }
 }
 
