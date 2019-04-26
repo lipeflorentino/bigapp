@@ -52,3 +52,9 @@ $dark-gray:#b1bfcb;
         font-size:1.8rem;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .ch-header{
+        padding-top:20vh;
+    }
+}

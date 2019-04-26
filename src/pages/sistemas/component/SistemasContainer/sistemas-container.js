@@ -3,7 +3,8 @@ import React from "react";
 
 // Importando os components necessários da lib react-materialize
 import { Row, Col} from 'react-materialize';
-
+//importando componente de media query
+import MediaQuery from "react-responsive";
 // Importando css
 import './stylesheet/sistemas-container.scss';
 import '../../../sites/component/SiteContainer/stylesheet/site-container.scss';
@@ -37,17 +38,26 @@ const SistemasContainer = () => (
                 </div>    
                 <div className="s-infos">
                     <Row>
+                        <MediaQuery query="(max-device-width: 600px)">
+                            <Col s={12}>
+                                <div className="s-infos-img">
+                                    <img src={img4} title="" alt=""></img>
+                                </div>
+                            </Col>
+                        </MediaQuery> 
                         <Col m={6} s={12}>
                             <div className="s-infos-text s-infos-text-purple">
                                 <h3>Sistemas de fácil gerenciamento</h3>
                                 <p>texto falando sobre o beneficio citado na imagem ao lado. Esse texto irá transmitir a mensagem segundo o título acima, para que justifique o uso do texto.</p>
                             </div>
                         </Col>
-                        <Col m={6} s={12}>
-                            <div className="s-infos-img">
-                                <img src={img4} title="" alt=""></img>
-                            </div>
-                        </Col>
+                        <MediaQuery query="(min-device-width: 601px)">
+                            <Col m={6} s={12}>
+                                <div className="s-infos-img">
+                                    <img src={img4} title="" alt=""></img>
+                                </div>
+                            </Col>
+                        </MediaQuery>     
                     </Row>
                 </div>
                 <div className="s-infos">

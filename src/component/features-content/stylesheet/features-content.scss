@@ -136,6 +136,9 @@ $light-green: #5dba61;
     }    
 }
 @media only screen and (max-width: 600px) {
+    .features-content{
+        height:200vh;
+    }
     .fc-features {
         text-align: center;
         float: none;
@@ -154,7 +157,7 @@ $light-green: #5dba61;
         transform: translate(0px);
     }
     .fc-img img {
-        bottom: -20px;
+        top: 0;
         width: 100%;
         position: relative;
         left: -21px;

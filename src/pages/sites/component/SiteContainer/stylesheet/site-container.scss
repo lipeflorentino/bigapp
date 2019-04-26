@@ -51,6 +51,9 @@ $light-white: #ffffff40;
         padding-top:5%;
     }    
 }
+.s-img-mobile{
+    display:none;    
+}
 .s-infos-text{
     text-align:left;
     padding:10% 0;
@@ -97,4 +100,32 @@ $light-white: #ffffff40;
     border-top-width: 3px !important;
     border-bottom-color:$medium-blue;
     border-bottom-width: 3px !important;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .s-container{
+        padding:6% 4%;
+    }
+    .s-infos-text{
+        text-align:center;
+    }
+    .s-img-mobile{
+        display:block;    
+    }
+    .s-infos-rect{
+        padding-top:5vh;
+    }
+    .s-container h2{
+        padding:10vh 10px 0 10px;
+    }
+    .s-content{
+        padding:6% 4%;
+    }
+    .s-prices-rect{
+        margin:10px 0;
+    }
+    .s-call{
+        margin-bottom:10vh;
+    }
 }
