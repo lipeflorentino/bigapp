@@ -13,8 +13,6 @@ $light-green: #5dba61;
     min-height:200px;
     padding:3% 8%;
     background-color:$white;
-    opacity:0;
-    transition:1s;
     h2{
         color:$medium-blue;
         font-size:2rem;
@@ -28,15 +26,24 @@ $light-green: #5dba61;
         margin:0;
     }
 }
-.dc-titulo-show{
-    opacity:1;
+.dc-title-img{
+    opacity:0;
     transition:1s;
-}
-.dc-title-img img{
-    width:60%;
+    width: 100%;
+    position: relative;
+    img{
+        width:100%;
+    }    
 }
 .dc-title-text{
     text-align:left;
+    opacity:0;
+    transition:1s;
+}
+
+.dc-titulo-show{
+    opacity:1;
+    transition:1s;
 }
 .title-underline{
     margin: auto;

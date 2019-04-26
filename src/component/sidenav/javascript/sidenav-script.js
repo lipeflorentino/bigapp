@@ -36,7 +36,8 @@ $(document).ready(function($){
             $('.vNav ul li a:eq('+index+')').addClass('active');
         }
         if(position > 250 && position <400){
-            $('.dc-titulo').addClass('dc-titulo-show');
+            $('.dc-title-text').addClass('dc-titulo-show');
+            $('.dc-title-img').addClass('dc-titulo-show');
         }
         if(position > 750 && position <1400){
             $('.vNav').removeClass('vNav-cor2');
@@ -79,13 +80,13 @@ $(document).ready(function($){
             index=3;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
-            if(position > 3250){
+            if(position > 3150){
                 $('.emp-container .emp-box:first-child').addClass('emp-show');
             }
-            if(position > 3450){
+            if(position > 3250){
                 $('.emp-container .emp-box:nth-child(2)').addClass('emp-show');
             }
-            if(position > 3650){
+            if(position > 3350){
                 $('.emp-container .emp-box:nth-child(3)').addClass('emp-show');
             }
         }
@@ -95,22 +96,22 @@ $(document).ready(function($){
             index=3;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
-            if(position > 3820){
+            if(position > 3760){
                 $('#info-tecno').addClass('p-infos-show');
             }
-            if(position > 4060){
+            if(position > 3880){
                 $('#info-pessoas').addClass('p-infos-show');
             }
-            if(position > 4220){
+            if(position > 3960){
                 $('#info-gestao').addClass('p-infos-show');
             }
-            if(position > 4460){
+            if(position > 4180){
                 $('#info-negocios').addClass('p-infos-show');
             }
-            if(position > 4620){
+            if(position > 4300){
                 $('#info-marcas').addClass('p-infos-show');
             }
-            if(position > 4760){
+            if(position > 4480){
                 $('#info-proposito').addClass('p-infos-show');
             }
         }

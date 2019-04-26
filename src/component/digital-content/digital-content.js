@@ -20,7 +20,7 @@ const DigitalContent = () => (
         <div className="dc-titulo">
             <Row>
                 <Col m={6} s={12}>
-                    <div className="dc-title-img dc-title-img-show">
+                    <div className="dc-title-img">
                         <img src={site_img} title="" alt=""></img>
                     </div>
                 </Col>
