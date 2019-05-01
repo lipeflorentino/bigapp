@@ -3,9 +3,13 @@ import React from "react";
 import fetch from 'cross-fetch';
 // Importando scss
 import './stylesheet/snackbar.scss';
+// Importando js
+import './javascript/select-field.js';
+
 require('dotenv').config();
 const token = "asd123jlkj132lijhaskdhtu174ncua";
 const api = "https://bigweb-lipeflorentino.c9users.io/users";
+
 class MyForm extends React.Component {
     constructor(props) {
         super(props);
@@ -73,7 +77,7 @@ class MyForm extends React.Component {
                 <div className="ft-titulo">
                     <h4>Contato</h4>
                 </div>
-                <form onSubmit={this.handleSubmit} className="col s12">
+                <form onSubmit={this.handleSubmit} className="col s12" id="ft-form">
                     <div className="row">
                         <div className="input-field col s6">
                             <i className="material-icons prefix">account_circle</i>
@@ -90,6 +94,7 @@ class MyForm extends React.Component {
                             <input id="assunto" type="text" data-length="20" className="validate" name="assunto" required ></input>
                             <label htmlFor="assunto">Assunto</label>
                         </div>
+                        
                         <div className="input-field col s12">
                             <i className="material-icons prefix">comment</i>
                             <textarea id="mensagem" className="materialize-textarea" data-length="120" name="mensagem" required ></textarea>
