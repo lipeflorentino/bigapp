@@ -4,13 +4,10 @@ import React from "react";
 import { Row, Col} from 'react-materialize';
 // Importando css e scss
 import './stylesheet/header-content.scss';
-// Importando img
-
-
-import { Link } from 'react-router-dom';
-
 
 //importando componentes
+import { Link } from 'react-router-dom';
+
 
 //Content
 const HeaderContent = () => (
@@ -24,10 +21,6 @@ const HeaderContent = () => (
                         <p>Criação de sites, sistemas e negócios digitais para pequenas empresas.</p>
                         <Link to="/contato" onClick={window.scrollTo(0, 0)} className="btn-class">COMECE AGORA</Link>
                     </div>
-                </Col>
-                
-                <Col m={12} s={12}>
-                    
                 </Col>
             </Row>
         </div>    

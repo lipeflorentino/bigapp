@@ -17,7 +17,7 @@ $black: #000000;
 }
 .header-content{
     min-height: 100vh;
-    background-image: linear-gradient(to bottom right, $darker-blue, $water-blue);
+    background-image: linear-gradient(to bottom right, $darker-blue, $medium-blue);
     text-align: center;
     padding: 20vh 10% 1px 10%;
     
@@ -25,7 +25,7 @@ $black: #000000;
 .digital-content{
     overflow: hidden;
     background-color:$medium-blue;
-    background-image: linear-gradient(to bottom right, $darker-blue, $water-blue);
+    background-image: linear-gradient(to bottom right, $darker-blue, $medium-blue);
     min-height: 100vh;
     padding-top:5%;
 }
@@ -70,7 +70,7 @@ $black: #000000;
 @media only screen and (max-width: 600px) {
     
     .content {
-        padding: 13vh 3% 3% 3%;
+        padding: 3vh 3% 3% 3%;
         min-width:100%;
     }
     .header-content{
@@ -81,5 +81,8 @@ $black: #000000;
     }
     .footer-content{
         min-height:100vh;
+    }
+    .digital-content{
+        height:120vh;
     }
 }

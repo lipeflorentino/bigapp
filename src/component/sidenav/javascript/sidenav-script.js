@@ -22,9 +22,10 @@ $(document).ready(function($){
    $(document).scroll(function(){
         var position = $(document).scrollTop(),
             index; 
-            
-        if(position > 750 && position < 7480){
+         
+        if(position > 750){
             $('.vNav').show();
+            $('.h-float').show();
         }
         else if(position > 7500){
             $('.vNav').hide();
@@ -80,13 +81,13 @@ $(document).ready(function($){
             index=3;
             $('.vNav ul li a').removeClass('active');
             $('.vNav ul li a:eq('+index+')').addClass('active');
-            if(position > 3150){
+            if(position > 3000){
                 $('.emp-container .emp-box:first-child').addClass('emp-show');
             }
-            if(position > 3250){
+            if(position > 3050){
                 $('.emp-container .emp-box:nth-child(2)').addClass('emp-show');
             }
-            if(position > 3350){
+            if(position > 3100){
                 $('.emp-container .emp-box:nth-child(3)').addClass('emp-show');
             }
         }

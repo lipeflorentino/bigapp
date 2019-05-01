@@ -25,7 +25,7 @@ const SistemasContainer = () => (
                     <Row>
                         <Col m={6} s={12}>
                             <div className="s-infos-img st-infos-img-top">
-                                <img src={img} title="" alt=""></img>
+                                <img src={img} title="sistemas-web-na-nuvem" alt="sistemas-web-na-nuvem"></img>
                             </div>
                         </Col>
                         <Col m={6} s={12}>
@@ -40,8 +40,8 @@ const SistemasContainer = () => (
                     <Row>
                         <MediaQuery query="(max-device-width: 600px)">
                             <Col s={12}>
-                                <div className="s-infos-img">
-                                    <img src={img4} title="" alt=""></img>
+                                <div className="s-infos-img st-infos-img-middle">
+                                    <img src={img4} title="sistemas-web-facil-gerenciamento" alt="sistema web de facil gerenciamento"></img>
                                 </div>
                             </Col>
                         </MediaQuery> 
@@ -54,7 +54,7 @@ const SistemasContainer = () => (
                         <MediaQuery query="(min-device-width: 601px)">
                             <Col m={6} s={12}>
                                 <div className="s-infos-img st-infos-img-middle">
-                                    <img src={img4} title="" alt=""></img>
+                                    <img src={img4} title="sistemas-web-facil-gerenciamento" alt="sistema web de facil gerenciamento"></img>
                                 </div>
                             </Col>
                         </MediaQuery>     
@@ -64,7 +64,7 @@ const SistemasContainer = () => (
                     <Row>
                         <Col m={6} s={12}>
                             <div className="s-infos-img st-infos-img-bottom">
-                                <img src={img3} title="" alt=""></img>
+                                <img src={img3} title="sistemas-web-personalizados" alt="sistemas web personalizados"></img>
                             </div>
                         </Col>
                         <Col m={6} s={12}>

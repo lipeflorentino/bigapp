@@ -3,7 +3,8 @@ import React from "react";
 import fetch from 'cross-fetch';
 // Importando scss
 import './stylesheet/snackbar.scss';
-
+require('dotenv').config();
+const token = "asd123jlkj132lijhaskdhtu174ncua";
 const api = "https://bigweb-lipeflorentino.c9users.io/users";
 class MyForm extends React.Component {
     constructor(props) {
@@ -28,14 +29,19 @@ class MyForm extends React.Component {
         fetch(api, { 
             method: 'post', 
             headers: {
+                "x-access-token": token,
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(form)
         })
           .then(response => response.json()) // retorna uma promise
           .then(result => {
-            this.showToast();
-            console.log('result: ' + result);
+              if(result.success === true){
+                this.showToast();
+              }else{
+                this.showError();
+                console.error('Failed retrieving information', JSON.stringify(result));  
+              }
           })
           .catch(err => {
           // trata se alguma das promises falhar

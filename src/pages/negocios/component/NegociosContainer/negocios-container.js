@@ -27,7 +27,7 @@ const NegociosContainer = () => (
                                 </div>
                                 <div className="n-infos-text">
                                     <h3>Análise e Validação</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem</p>
+                                    <p>Iremos ouvir a sua ideia, discutí-la e analisá-la para que possamos chegar a um entendimento sobre a ideia e assim possamos trabalhar nela.</p>
                                 </div>
                             </div>
                             <div className="n-line"></div>
@@ -39,7 +39,7 @@ const NegociosContainer = () => (
                                 </div>
                                 <div className="n-infos-text">
                                     <h3>Modelagem do MVP</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem</p>
+                                    <p>Após a análise inicial iremos definir de que forma trabalharemos na sua ideia de modo que ela se torne um modelo de negócio e então criaremos um MVP (produto mínimo viável) a partir dela.</p>
                                 </div>
                             </div>
                             <div className="n-line"></div>
@@ -51,7 +51,7 @@ const NegociosContainer = () => (
                                 </div>
                                 <div className="n-infos-text">
                                     <h3>Desenvolvimento do Produto</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer rutrum, urna eu pellentesque pretium obcaecati vel exercitationem</p>
+                                    <p>Após apresentarmos o MVP e validá-lo junta ao cliente, iremos trabalhar no desenvolvimento do produto final.</p>
                                 </div>
                             </div>
                         </div>
@@ -59,7 +59,7 @@ const NegociosContainer = () => (
                 </Row>
             </div>
             <div className="s-call">
-                <p><strong>Não adie mais, comece agora mesmo!</strong></p>
+                <p><strong>Bem simples não? Comece agora mesmo!</strong></p>
                 <Link to="/contato" onClick={window.scrollTo(0, 0)} className="btn-class">SAIBA COMO</Link>
             </div>
         </div>

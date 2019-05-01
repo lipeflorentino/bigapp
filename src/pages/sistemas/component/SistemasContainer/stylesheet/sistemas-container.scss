@@ -54,3 +54,30 @@ $light-purple:#aa6dd1;
         top: 20px;
     }    
 }
+
+@media only screen and (max-width: 600px) {
+    .st-infos-img-top{
+        img{
+            position:relative;
+            padding:4%;
+            width:100%;
+            left:0;
+        }
+    }
+    .st-infos-img-middle{
+        img{
+            position:relative;
+            padding:4%;
+            width:100%;
+            left:0;
+        }
+    }
+    .st-infos-img-bottom{
+        img{
+            position:relative;
+            padding:4%;
+            width:100%;
+            left:0;
+        }
+    }
+}

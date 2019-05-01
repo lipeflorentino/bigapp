@@ -22,6 +22,9 @@ class App extends Component {
         <Menu />
         <SideNav />
         <Main />
+        <a href="https://wa.me/5522997461629&text=Olá!" className="h-float" rel="noopener noreferrer" target="_blank">
+            <i className="fa fa-whatsapp my-float"></i>
+        </a>
       </div>
     );
   }

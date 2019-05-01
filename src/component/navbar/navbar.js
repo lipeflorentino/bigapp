@@ -12,7 +12,7 @@ import { Link } from 'react-router-dom';
     
 const icon = (
   <span className="logo">
-    <img src={logo} height="45" width="45" alt="<BIG/>" />
+    <img src={logo} height="45" width="45" title="BIG-soluções-digitais" alt="<BIG/>" />
   </span>
 );
 
@@ -20,7 +20,7 @@ const icon = (
 const Nav = () => (
   <div>
       <ul className="nav-mobile">
-        <li>{icon}</li>        
+        <li><a href="/">{icon}</a></li>        
         <li className="menu-container"> 
           <input id="menu-toggle" type="checkbox"></input>
           <label htmlFor="menu-toggle" className="menu-button">  
@@ -30,6 +30,7 @@ const Nav = () => (
             </svg> 
           </label>      
           <ul className="menu-sidebar">
+            <li><a href="/">HOME</a></li>
             <li><Link to="/sites">SITES</Link></li>
             <li><Link to="/sistemas">SISTEMAS</Link></li>
             <li><Link to="/negocios">NEGÓCIOS DIGITAIS</Link></li>

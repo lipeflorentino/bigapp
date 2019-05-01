@@ -17,7 +17,7 @@ const EbookContent = () => (
             <div className="ec-titulo">
                 <h3>Quer Saber Mais?</h3>
                 <p>Baixe gratuitamente o ebook.</p>
-                <a href="/" className="btn-class">Download E-book</a>
+                <a href="./ebook.pdf" className="btn-class" download>Download E-book</a>
             </div>
         </div>    
     </div>    
