@@ -150,7 +150,7 @@ $light-green: #5dba61;
 }
 @media only screen and (max-width: 600px) {
     .features-content{
-        height:280vh;
+        height:100%;
         padding:12% 4% 0 4%;
     }
     .fc-features {
@@ -170,8 +170,12 @@ $light-green: #5dba61;
         -webkit-transform: translate(0px);
         transform: translate(0px);
     }
+    .fc-img {
+        position: relative;
+        bottom: 40px;
+    }
     .fc-img img {
-        top: 0;
+        bottom: 0;
         width: 100%;
         position: relative;
         left: -21px;

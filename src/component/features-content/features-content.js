@@ -45,7 +45,7 @@ const FeaturesContent = () => (
                 </Col>
                 <Col m={4} s={12}>
                     <div className="fc-img">
-                        <img src={img} title="" alt=""></img>
+                        <img src={img} title="sites-dispositivos-móveis" alt="sites em dispositivos móveis"></img>
                     </div>
                 </Col>
                 <div className="clearfix"></div>

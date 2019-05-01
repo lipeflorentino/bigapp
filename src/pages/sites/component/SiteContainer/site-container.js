@@ -22,7 +22,7 @@ const SiteContainer = () => (
                     <Row>
                         <Col m={6} s={12}>
                             <div className="s-infos-img s-infos-img-top">
-                                <img src={img} title="" alt=""></img>
+                                <img src={img} title="sites-user-friendly" alt="criação de sites user friendly"></img>
                             </div>
                         </Col>
                         <Col m={6} s={12}>
@@ -37,8 +37,8 @@ const SiteContainer = () => (
                     <Row>
                         <MediaQuery query="(max-device-width: 600px)">
                             <Col s={12}>
-                                <div className="s-infos-img">
-                                    <img src={img4} title="" alt=""></img>
+                                <div className="s-infos-img s-infos-img-middle">
+                                    <img src={img4} title="sites-design-responsivo" alt="criação de sites com design responsivo"></img>
                                 </div>
                             </Col>
                         </MediaQuery>    
@@ -51,7 +51,7 @@ const SiteContainer = () => (
                         <MediaQuery query="(min-device-width: 601px)">
                             <Col m={6} s={12}>
                                 <div className="s-infos-img s-infos-img-middle">
-                                    <img src={img4} title="" alt=""></img>
+                                    <img src={img4} title="sites-design-responsivo" alt="criação de sites com design responsivo"></img>
                                 </div>
                             </Col>
                         </MediaQuery>  
@@ -61,7 +61,7 @@ const SiteContainer = () => (
                     <Row>
                         <Col m={6} s={12}>
                             <div className="s-infos-img s-infos-img-bottom">
-                                <img src={img3} title="" alt=""></img>
+                                <img src={img3} title="sites-otimizados-seo" alt="criação de sites otimizados (SEO)"></img>
                             </div>
                         </Col>
                         <Col m={6} s={12}>

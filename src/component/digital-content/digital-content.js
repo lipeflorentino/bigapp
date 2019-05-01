@@ -9,10 +9,8 @@ import img from '../../img/multiplataform2.png';
 import site_img from '../../img/multiplataform2.png';
 // Importando js
 import './javascript/mini-menu.js';
-
-import { Link } from 'react-router-dom';
-
 //importando componentes
+import { Link } from 'react-router-dom';
 
 //Content
 const DigitalContent = () => (
@@ -21,7 +19,7 @@ const DigitalContent = () => (
             <Row>
                 <Col m={6} s={12}>
                     <div className="dc-title-img">
-                        <img src={site_img} title="" alt=""></img>
+                        <img src={site_img} title="criação-de-sites-multiplataforma" alt="criação de sites multiplataforma"></img>
                     </div>
                 </Col>
                 <Col m={6} s={12}>
@@ -49,7 +47,7 @@ const DigitalContent = () => (
                     <div className="dc-container">
                         <div id="site" className="dc-text dc-show">
                             <h3>Websites</h3>
-                            <p><strong>Sites</strong> desenvolvidos com as mais recentes tecnologias, otimizadas e seguindo técnicas avançadas de <strong>SEO</strong> para tornar visível seu website e sua empresa nos melhores mecanismos de busca como Google.</p>
+                            <p><strong>Sites</strong> desenvolvidos com as mais recentes tecnologias, otimizados e seguindo técnicas avançadas de <strong>SEO</strong> para tornar visível seu website e sua empresa nos melhores mecanismos de busca como Google.</p>
                             <Link to="/sites" onClick={window.scrollTo(0, 0)} className="btn-class toServico">SAIBA MAIS</Link>
                         </div>
                         
