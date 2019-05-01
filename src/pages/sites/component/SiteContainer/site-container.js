@@ -86,7 +86,7 @@ const SiteContainer = () => (
                     <Col m={4} s={12}>
                         <div className="s-prices-rect s-active">
                             <h3>Básico</h3>
-                            <h4>R$ 350*</h4>
+                            <h4>R$ 500*</h4>
                             <ul>
                                 <li>Layout pré-definido</li>
                                 <li>Design multiplataforma</li>
@@ -101,10 +101,10 @@ const SiteContainer = () => (
                     </Col>
                     <Col m={4} s={12}>
                         <div className="s-prices-rect s-active">
-                            <h3>Customizado</h3>
-                            <h4>R$ 800*</h4>
+                            <h3>Avançado</h3>
+                            <h4>R$ 900*</h4>
                             <ul>
-                                <li>Layout personalizado</li>
+                                <li>Layout pré-definido</li>
                                 <li>Design multiplataforma</li>
                                 <li>Otimizado (SEO)</li>
                                 <li>Até 6 páginas</li>
@@ -117,10 +117,10 @@ const SiteContainer = () => (
                     </Col>
                     <Col m={4} s={12}>
                         <div className="s-prices-rect s-active">
-                            <h3>Avançado</h3>
-                            <h4>R$ 1500*</h4>
+                            <h3>Customizado</h3>
+                            <h4>R$ 2500*</h4>
                             <ul>
-                                <li>Layout personalizado</li>
+                                <li>Layout Customizado</li>
                                 <li>Design multiplataforma</li>
                                 <li>Otimizado (SEO)</li>
                                 <li>Múltiplas Páginas</li>

@@ -89,7 +89,7 @@ const SistemasContainer = () => (
                     <Col m={6} s={12}>
                         <div className="s-prices-rect s-prices-rect-purple s-active-purple">
                             <h3>Básico</h3>
-                            <h4>R$ 800*</h4>
+                            <h4>R$ 1200*</h4>
                             <ul>
                                 <li>Layout pré-definido</li>
                                 <li>Design multiplataforma</li>
@@ -105,7 +105,7 @@ const SistemasContainer = () => (
                     <Col m={6} s={12}>
                         <div className="s-prices-rect s-prices-rect-purple s-active-purple">
                             <h3>Customizado</h3>
-                            <h4>R$ 2000*</h4>
+                            <h4>R$ 3000*</h4>
                             <ul>
                                 <li>Layout personalizado</li>
                                 <li>Design multiplataforma</li>
