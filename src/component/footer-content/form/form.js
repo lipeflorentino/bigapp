@@ -3,6 +3,7 @@ import React from "react";
 import fetch from 'cross-fetch';
 // Importando scss
 import './stylesheet/snackbar.scss';
+import './stylesheet/form.scss';
 // Importando js
 import './javascript/select-field.js';
 
@@ -29,7 +30,7 @@ class MyForm extends React.Component {
     enviarEmail (event, data){
         event.preventDefault();
         console.log('chamou enviarEmail pelo react...');
-        const form = {'nome': data.get('nome'), 'email': data.get('email'),'assunto': data.get('assunto'),'mensagem': data.get('mensagem'), 'data_envio': new Date()}
+        const form = {'nome': data.get('nome'), 'email': data.get('email'),'assunto': data.get('assunto'), 'servico': data.get('servico'), 'tipo_servico': data.get('tipo_servico'), 'mensagem': data.get('mensagem'), 'data_envio': new Date()}
         fetch(api, { 
             method: 'post', 
             headers: {
@@ -73,26 +74,48 @@ class MyForm extends React.Component {
   render() {
     return (
         <div className="ft-form">
+        
             <div className="row ft-pad">
                 <div className="ft-titulo">
                     <h4>Contato</h4>
                 </div>
+
                 <form onSubmit={this.handleSubmit} className="col s12" id="ft-form">
                     <div className="row">
                         <div className="input-field col s6">
                             <i className="material-icons prefix">account_circle</i>
-                            <input id="name" type="text" data-length="15" name="nome" className="validate" required ></input>
+                            <input id="name" type="text" data-length="25" name="nome" className="validate" required ></input>
                             <label htmlFor="name">Nome</label>
                         </div>
                         <div className="input-field col s6">
                             <i className="material-icons prefix">alternate_email</i>
-                            <input id="email" type="email" data-length="15" className="validate" name="email" required ></input>
+                            <input id="email" type="email" data-length="40" className="validate" name="email" required ></input>
                             <label htmlFor="email">Email</label>
                         </div>
                         <div className="input-field col s12">
                             <i className="material-icons prefix">create</i>
-                            <input id="assunto" type="text" data-length="20" className="validate" name="assunto" required ></input>
+                            <input id="assunto" type="text" data-length="40" className="validate" name="assunto" required ></input>
                             <label htmlFor="assunto">Assunto</label>
+                        </div>
+                        <div className="input-field col s6">
+                            <label id="pd-left"  htmlFor="servico">Serviço</label>
+                            <div id="pd-left" className="custom-select">
+                                <select name="servico">
+                                    <option value="Sites">Sites</option>
+                                    <option value="Sistemas">Sistemas</option>
+                                    <option value="Negocios">Negócios</option>
+                                </select>
+                            </div>    
+                        </div>
+                        <div className="input-field col s6">
+                            <label id="pd-left"  htmlFor="tipo_servico">Tipo</label>
+                            <div id="pd-left" className="custom-select">
+                                <select name="tipo_servico">
+                                    <option value="Basico">Basico</option>
+                                    <option value="Avancado">Avançado</option>
+                                    <option value="Customizado">Customizado</option>
+                                </select>
+                            </div>    
                         </div>
                         
                         <div className="input-field col s12">
