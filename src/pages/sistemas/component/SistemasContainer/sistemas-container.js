@@ -12,8 +12,8 @@ import '../../../sites/component/SiteContainer/stylesheet/site-container.scss';
 import { Link } from 'react-router-dom';
 
 import img from './img/sistema3.jpg';
-import img4 from './img/sistema2.jpg';
-import img3 from './img/sistema.png';
+import img4 from './img/dashboard.jpg';
+import img3 from './img/dashboard2.jpg';
 
 const SistemasContainer = () => (
     

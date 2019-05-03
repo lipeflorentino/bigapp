@@ -41,18 +41,18 @@ $light-purple:#aa6dd1;
 .st-infos-img-middle{
     img{
         position: absolute;
-        left: 30px;
-        width: 100%;
-        top: 20px;
+        left: 100px;
+        width: 70%;
+        top: 56px;
     }
 }
 .st-infos-img-bottom{
     img{
         position: absolute;
-        width: 100%;
-        left: -75px;
-        top: 20px;
-    }    
+        width: 70%;
+        left: 15px;
+        top: 33px;
+    }
 }
 
 @media only screen and (max-width: 600px) {

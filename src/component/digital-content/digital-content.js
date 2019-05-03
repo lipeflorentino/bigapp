@@ -6,7 +6,7 @@ import {Row, Col} from 'react-materialize';
 import './stylesheet/digital-content.scss';
 // Importando img
 import img from '../../img/multiplataform2.png';
-import site_img from '../../img/multiplataform2.png';
+import site_img from './img/servicos.png';
 // Importando js
 import './javascript/mini-menu.js';
 //importando componentes

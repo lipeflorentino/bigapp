@@ -8,9 +8,9 @@ import MediaQuery from "react-responsive";
 import './stylesheet/site-container.scss';
 
 import { Link } from 'react-router-dom';
-import img from './img/sites.png';
+import img from './img/sites.jpg';
 import img4 from './img/sites4.jpg';
-import img3 from './img/sites3.png';
+import img3 from './img/seo.jpg';
 
 const SiteContainer = () => (
     
