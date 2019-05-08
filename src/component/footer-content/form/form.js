@@ -132,7 +132,7 @@ class MyForm extends React.Component {
                 </form>
             </div>
             <div id="snackbar">Valeu! Já já entraremos em contato.</div>
-            <div id="errorbar">Ocorreu um erro durante o envio, por favor entre em contato em contato@big.com.br</div>
+            <div id="errorbar">Ocorreu um erro durante o envio, por favor entre em contato em bigsolucoesdigitais@gmail.com</div>
         </div>
     );
   }
