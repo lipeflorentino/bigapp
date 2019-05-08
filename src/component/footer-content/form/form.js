@@ -34,7 +34,7 @@ class MyForm extends React.Component {
         fetch(api, { 
             method: 'post', 
             headers: {
-                "x-access-token": token,
+                "X-Api-Key": token,
                 "Content-Type": "application/json"
             },
             body: JSON.stringify(form)
