@@ -30,7 +30,7 @@ class MyForm extends React.Component {
     enviarEmail (event, data){
         event.preventDefault();
         console.log('chamou enviarEmail pelo react...');
-        const form = {'nome': data.get('nome'), 'email': data.get('email'),'assunto': data.get('assunto'), 'servico': data.get('servico'), 'tipo_servico': data.get('tipo_servico'), 'mensagem': data.get('mensagem'), 'data_envio': new Date()}
+        const form = {'nome': data.get('nome'), 'email': data.get('email'),'assunto': data.get('assunto'), 'servico': data.get('servico'), 'tipo_servico': data.get('tipo_servico'), 'mensagem': data.get('mensagem'), 'data_envio': new Date(), 'token': token}
         fetch(api, { 
             method: 'post', 
             headers: {
