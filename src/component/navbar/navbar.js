@@ -20,7 +20,7 @@ const icon = (
 const Nav = () => (
   <div>
       <ul className="nav-mobile">
-        <li><a href="/">{icon}</a></li>        
+        <li><a href="http://www.bigempreendimentos.com.br/">{icon}</a></li>        
         <li className="menu-container"> 
           <input id="menu-toggle" type="checkbox"></input>
           <label htmlFor="menu-toggle" className="menu-button">  
