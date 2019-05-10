@@ -8,8 +8,8 @@ import './stylesheet/form.scss';
 import './javascript/select-field.js';
 
 require('dotenv').config();
-const token = process.env.TOKEN;
-const api = process.env.API;
+const token = "asd123jlkj132lijhaskdhtu174ncua";
+const api = "http://54.233.219.64:8080/users";
 
 class MyForm extends React.Component {
     constructor(props) {
