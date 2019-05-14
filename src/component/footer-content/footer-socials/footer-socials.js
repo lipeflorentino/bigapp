@@ -17,7 +17,7 @@ const FooterSocials = () => (
                         <h5>Informações</h5>
                         <i className="fa fa-mobile-phone"></i><p>(22) 99746-1629</p>
                         <i className="fa fa-envelope"></i><p>bigsolucoesdigitais@gmail.com</p>
-                        <i className="fa fa-map-o"></i><p>Rodovia Amaral Peixoto Km - 78,5 Saquarema - Rio de Janeiro</p>
+                        <i className="fa fa-map-o"></i><p>Rua Domingues Sávio Nogueira Saad, nº 120, apt. 1004. Boa Viagem, Niterói - RJ</p>
                     </div>
                 </Col>
                 <Col m={6} s={12}>
