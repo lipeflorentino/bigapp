@@ -19,7 +19,7 @@ const HeaderContent = () => (
                     <div className="header-title">
                         <h1>Começe pequeno. Pense grande.</h1>
                         <p>Criação de sites, sistemas e negócios digitais para pequenas empresas.</p>
-                        <Link to="/contato" onClick={window.scrollTo(0, 0)} className="btn-class">COMECE AGORA</Link>
+                        <Link to="http://www.bigempreendimentos.com.br/contato" onClick={window.scrollTo(0, 0)} className="btn-class">COMECE AGORA</Link>
                     </div>
                 </Col>
             </Row>

@@ -8,7 +8,6 @@ import SiteContainer from './component/SiteContainer/site-container';
 import Footer from '../../component/footer-content/footer-socials/footer-socials';      
 // Importando css
 import './sites-page.scss';
-import '../javascript/click-to-nav.js';
 
 import Helmet from 'react-helmet';
 

@@ -78,7 +78,7 @@ const SistemasContainer = () => (
             </div>
             <div className="s-call">
                 <p><strong>Não adie mais, comece agora mesmo!</strong></p>
-                <Link to="/contato" onClick={window.scrollTo(0, 0)} className="btn-class">SAIBA COMO</Link>
+                <Link to="http://www.bigempreendimentos.com.br/contato" onClick={window.scrollTo(0, 0)} className="btn-class">SAIBA COMO</Link>
             </div>    
         </div>
         <div className="s-content s-content-purple">
@@ -99,7 +99,7 @@ const SistemasContainer = () => (
                                 <li>30 dias de manutenção grátis</li>
                                 <li></li>
                             </ul>   
-                            <Link to="/contato" onClick={window.scrollTo(0, 0)} className="btn-class">CONTRATE AGORA</Link>
+                            <Link to="http://www.bigempreendimentos.com.br/contato" onClick={window.scrollTo(0, 0)} className="btn-class">CONTRATE AGORA</Link>
                         </div>
                     </Col>
                     <Col m={6} s={12}>
@@ -114,7 +114,7 @@ const SistemasContainer = () => (
                                 <li>Até 3 níveis de acesso</li>
                                 <li>30 dias de manutenção grátis</li>
                             </ul>   
-                            <Link to="/contato" onClick={window.scrollTo(0, 0)} className="btn-class">CONTRATE AGORA</Link>
+                            <Link to="http://www.bigempreendimentos.com.br/contato" onClick={window.scrollTo(0, 0)} className="btn-class">CONTRATE AGORA</Link>
                         </div>
                     </Col>
                 </Row>

@@ -23,9 +23,9 @@ const FooterSocials = () => (
                 <Col m={6} s={12}>
                     <div className="ft-rect">
                         <h5>Redes Sociais</h5>
-                        <a href="/"><i className="fa fa-facebook-square"></i></a>
-                        <a href="/"><i className="fa fa-instagram"></i></a>
-                        <a href="/"><i className="fa fa-linkedin"></i></a>
+                        <a href="http://www.bigempreendimentos.com.br/"><i className="fa fa-facebook-square"></i></a>
+                        <a href="http://www.bigempreendimentos.com.br/"><i className="fa fa-instagram"></i></a>
+                        <a href="http://www.bigempreendimentos.com.br/"><i className="fa fa-linkedin"></i></a>
                     </div>
                 </Col>
                 <Col m={3} s={12}>
@@ -40,10 +40,10 @@ const FooterSocials = () => (
                 <div className="ft-menu">
                     <ul>
                         <li className="toHome"><a href="/">Home</a></li>
-                        <li className="btn-class-footer"><Link to="/sites" onClick={window.scrollTo(0, 0)}>Sites</Link></li>
-                        <li className="btn-class-footer"><Link to="/sistemas" onClick={window.scrollTo(0, 0)}>Sistemas</Link></li>
-                        <li className="btn-class-footer"><Link to="/negocios" onClick={window.scrollTo(0, 0)}>Negócios</Link></li>
-                        <li className="btn-class-footer"><Link to="/contato" onClick={window.scrollTo(0, 0)}>Contato</Link></li>
+                        <li className="btn-class-footer"><Link to="http://www.bigempreendimentos.com.br/sites" onClick={window.scrollTo(0, 0)}>Sites</Link></li>
+                        <li className="btn-class-footer"><Link to="http://www.bigempreendimentos.com.br/sistemas" onClick={window.scrollTo(0, 0)}>Sistemas</Link></li>
+                        <li className="btn-class-footer"><Link to="http://www.bigempreendimentos.com.br/negocios" onClick={window.scrollTo(0, 0)}>Negócios</Link></li>
+                        <li className="btn-class-footer"><Link to="http://www.bigempreendimentos.com.br/contato" onClick={window.scrollTo(0, 0)}>Contato</Link></li>
                     </ul>        
                 </div>
             </div>

@@ -25,8 +25,8 @@ const DigitalContent = () => (
                 <Col m={6} s={12}>
                     <div className="dc-title-text">
                         <h2>Nossas Soluções</h2>
-                        <p>Quer um <strong>site</strong> institucional para aumentar suas vendas? Quer um <strong>sistema</strong> para gerenciar o seu estoque ou um CRM para gerenciar os seus clientes? Fale conosco, temos soluções otimizadas para <strong>pequenas empresas</strong> com preços acessíveis.</p>
-                        <Link to="/contato" onClick={window.scrollTo(0, 0)} className="btn-class">COMECE AGORA MESMO</Link>
+                        <p>Quer um <a href="http://www.bigempreendimentos.com.br/sites" title="criaçao-de-sites"><strong>site</strong></a> institucional para aumentar suas vendas? Quer um <a href="http://www.bigempreendimentos.com.br/sistemas" title="criaçao-de-sistemas-web"><strong>sistema</strong></a> para gerenciar o seu estoque ou um CRM para gerenciar os seus clientes? Fale conosco, temos soluções otimizadas para <strong>pequenas empresas</strong> com preços acessíveis.</p>
+                        <Link to="http://www.bigempreendimentos.com.br/contato" onClick={window.scrollTo(0, 0)} className="btn-class">COMECE AGORA MESMO</Link>
                     </div>
                 </Col>
                 <div className="clearfix"></div>
@@ -48,25 +48,25 @@ const DigitalContent = () => (
                         <div id="site" className="dc-text dc-show">
                             <h3>Websites</h3>
                             <p><strong>Sites</strong> desenvolvidos com as mais recentes tecnologias, otimizados e seguindo técnicas avançadas de <strong>SEO</strong> para tornar visível seu website e sua empresa nos melhores mecanismos de busca como Google.</p>
-                            <Link to="/sites" onClick={window.scrollTo(0, 0)} className="btn-class toServico">SAIBA MAIS</Link>
+                            <Link to="http://www.bigempreendimentos.com.br/sites" onClick={window.scrollTo(0, 0)} className="btn-class toServico">SAIBA MAIS</Link>
                         </div>
                         
                         <div id="sistema" className="dc-text">
                             <h3>Sistemas</h3>
                             <p>Você faz muito trabalho manual na sua empresa, gasta toneladas de papel com anotações de dados importantes, que tal colocar tudo isso num <strong>sistema</strong> na nuvem, seguro e facilmente gerenciável por você? Assim você teria mais tempo livre para fazer outras coisas e sua vida seria muito mais fácil. Além da vantagem competitiva frente aos concorrentes.</p>
-                            <Link to="/sistemas" onClick={window.scrollTo(0, 0)} className="btn-class toServico">SAIBA MAIS</Link>
+                            <Link to="http://www.bigempreendimentos.com.br/sistemas" onClick={window.scrollTo(0, 0)} className="btn-class toServico">SAIBA MAIS</Link>
                         </div>
                         
                         <div id="ideias" className="dc-text">
                             <h3>Negócios Digitais</h3>
                             <p>Quase todo mundo está online, os negócios estão online. Tem uma ideia maluca? Muitos negócios bem sucedidos começaram assim. Fale conosco, podemos transformar a sua ideia em um <strong>negócio digital</strong>.</p>
-                            <Link to="/negocios" onClick={window.scrollTo(0, 0)} className="btn-class toServico">SAIBA MAIS</Link>
+                            <Link to="http://www.bigempreendimentos.com.br/negocios" onClick={window.scrollTo(0, 0)} className="btn-class toServico">SAIBA MAIS</Link>
                         </div>
                         
                         <div id="design" className="dc-text">
                             <h3>SEO</h3>
                             <p>Os mecanismos de busca como Google são hoje, a principal forma de pesquisa de potenciais clientes, se o seu <strong>site</strong> não estiver bem posicionado nesses mecanismos, dificilmente sua empresa será encontrada e irá perder um enorme potencial de vendas. Com as melhores tecnicas de <strong>SEO</strong> e mais alguns fatores, nós podemos ajudar a sua empresa a se posicionar melhor nos mecanismos, aumentando sua possibilidade de vendas.</p>
-                            <Link to="/sites#SEO" onClick={window.scrollTo(0, 0)} className="btn-class toServico">SAIBA MAIS</Link>
+                            <Link to="http://www.bigempreendimentos.com.br/sites#SEO" onClick={window.scrollTo(0, 0)} className="btn-class toServico">SAIBA MAIS</Link>
                         </div>
                     </div>
                 </Col>    

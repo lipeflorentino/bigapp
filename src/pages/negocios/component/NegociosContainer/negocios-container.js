@@ -60,7 +60,7 @@ const NegociosContainer = () => (
             </div>
             <div className="s-call">
                 <p><strong>Bem simples não? Comece agora mesmo!</strong></p>
-                <Link to="/contato" onClick={window.scrollTo(0, 0)} className="btn-class">SAIBA COMO</Link>
+                <Link to="http://www.bigempreendimentos.com.br/contato" onClick={window.scrollTo(0, 0)} className="btn-class">SAIBA COMO</Link>
             </div>
         </div>
     </div>

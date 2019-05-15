@@ -9,8 +9,6 @@ import Footer from '../../component/footer-content/footer-socials/footer-socials
 // Importando css
 import './negocios-page.scss';
 
-import '../javascript/click-to-nav.js';
-
 import Helmet from 'react-helmet';
 
 class Negocios extends Component {
