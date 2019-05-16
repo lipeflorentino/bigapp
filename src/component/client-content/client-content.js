@@ -51,13 +51,13 @@ const ClientContent = () => (
                         </div>
                         <div id="slide3" className="cc-slide">
                             <div className="cc-img">
-                                <img src={img2} title="gabriela-nogueira-cliente" alt="mais um cliente satisfeito"></img>
+                                <img src={img2} title="camila-florentino-cliente" alt="mais um cliente satisfeito"></img>
                             </div>
                             <div className="cc-text">
                                 <i className="fa fa-quote-left"></i>
                                 <h4>A entrega foi bem rápida e toda semana havia uma parte do site pronta para que eu avaliasse, gostei batante do serviço e o preço coube no meu orçamento. Eu recomendo a empresa.</h4>
                                 <i className="fa fa-quote-right"></i>
-                                <p>Gabriela F. Nogueira</p>
+                                <p>Camila Florentino</p>
                             </div>
                             <div id="btn-slide5"><i className="fa fa-chevron-circle-left"></i></div>
                             <div id="btn-slide4"><i className="fa fa-chevron-circle-right"></i></div>
